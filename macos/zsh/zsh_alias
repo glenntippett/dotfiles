@@ -1,0 +1,49 @@
+# OVO repositories
+alias start-supply-service="cd ~/dev/ovo/au-supplyaccount-service && gco setup && ./scripts/runDevMode.sh"
+alias start-payment-service="cd ~/dev/ovo/payment-service/api && yarn start:dev"
+alias start-promotions-service="cd ~/dev/ovo/promotions-service && cd node && yarn start:dev"
+alias start-myovo-api="cd ~/dev/ovo/au-myovo-api && yarn && yarn start:dev"
+alias start-myovo-ui="cd ~/dev/ovo/au-myovo-ui && yarn start:local"
+
+alias update-myovo-api="cd ~/dev/ovo/au-myovo-api && gco main && git pull"
+alias update-promotions-service="cd ~/dev/ovo/promotions-service && gco main && git pull"
+alias update-payment-service="cd ~/dev/ovo/payment-service/api && gco main && git pull"
+alias update-myovo-ui="cd ~/dev/ovo/au-myovo-ui && gco main && git pull"
+
+alias start-architecture="~/ovo/au-architecture/start-server.sh"
+
+# AWS
+# Start Step Functions Local in Docker - for local Step Function testing
+alias start-sfn-local="docker run -p 8083:8083 amazon/aws-stepfunctions-local"
+
+# Open Repos:
+alias ovo="cd ~/dev/ovo && codium -n ." # Everything
+
+# Day-to-days
+alias cod="codium"
+alias dev="cd ~/dev/ovo/"
+alias tf="terraform" # FYI: terraform/tf fmt to format a file eg: "tf fmt ./module.tf"
+alias cl="clear"
+alias nv="nvim"
+
+alias ys="yarn start"
+
+alias play="codium -n ~/dev/testing/typescript-playground"
+
+alias pomodoro="sh ~/code/my-stuff/pomodoro/pomodoro.sh"
+
+# Kaluza API
+alias apollo-prod="cd ~/dev/ovo/ && open graphql-sandbox-prod.html -a 'Google Chrome.app'"
+alias apollo-uat="cd ~/dev/ovo/ && open graphql-sandbox.html -a 'Google Chrome.app'"
+
+# Node
+alias node-version-name="node -pe process.release.lts"
+
+# Config
+alias edit-zsh="codium -n ~/dotfiles/zsh/.zshrc"
+alias source-zsh="source ~/dotfiles/zsh/.zshrc"
+alias edit-alias="codium -n ~/dotfiles/zsh/.zsh/zsh_alias"
+
+alias view-alias="cat ~/dotfiles/zsh/.zsh/zsh_alias"
+alias list-alias="cat ~/dotfiles/zsh/.zsh/zsh_alias"
+alias show-alias="cat ~/dotfiles/zsh/.zsh/zsh_alias"
