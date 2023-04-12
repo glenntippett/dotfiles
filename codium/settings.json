@@ -7,7 +7,7 @@
   "editor.fontFamily": "Gintronic",
   "editor.cursorStyle": "block",
   "editor.fontLigatures": true,
-  "editor.fontSize": 14,
+  "editor.fontSize": 12,
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": "active",
   "editor.suggest.showMethods": true,
@@ -18,6 +18,7 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "editor.inlineSuggest.enabled": true,
+  "editor.showFoldingControls": "always",
   "editor.stickyScroll.enabled": true,
 
   "terminal.integrated.cursorStyle": "block",
@@ -96,7 +97,6 @@
 
   "terminal.integrated.tabs.enabled": false,
   "aws.codeWhisperer.includeSuggestionsWithCodeReferences": false,
-  "workbench.colorTheme": "Ayu Mirage Bordered",
   "workbench.panel.defaultLocation": "left",
   "[python]": {
     "editor.formatOnType": true
@@ -158,7 +158,6 @@
     }
   },
   "git.openRepositoryInParentFolders": "never",
-  "editor.minimap.enabled": false,
   "workbench.iconTheme": "material-icon-theme",
 
   "ruby.useBundler": true,
@@ -176,5 +175,10 @@
   "[ruby]": {
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "mbessey.vscode-rufo"
-  }
+  },
+
+  "editor.minimap.enabled": false,
+  "workbench.colorTheme": "Ayu Mirage Bordered",
+  "aws.telemetry": false,
+  "window.commandCenter": true
 }

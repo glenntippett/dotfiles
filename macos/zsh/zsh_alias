@@ -40,10 +40,12 @@ alias apollo-uat="cd ~/dev/ovo/ && open graphql-sandbox.html -a 'Google Chrome.a
 alias node-version-name="node -pe process.release.lts"
 
 # Config
-alias edit-zsh="codium -n ~/dotfiles/zsh/.zshrc"
-alias source-zsh="source ~/dotfiles/zsh/.zshrc"
-alias edit-alias="codium -n ~/dotfiles/zsh/.zsh/zsh_alias"
+alias edit-zsh="codium -n ~/dotfiles/macos/zsh/.zshrc"
+alias source-zsh="source ~/dotfiles/macos/zsh/.zshrc"
+alias edit-alias="codium -n ~/dotfiles/macos/zsh/zsh_alias"
 
-alias view-alias="cat ~/dotfiles/zsh/.zsh/zsh_alias"
-alias list-alias="cat ~/dotfiles/zsh/.zsh/zsh_alias"
-alias show-alias="cat ~/dotfiles/zsh/.zsh/zsh_alias"
+alias view-alias="cat ~/dotfiles/macos/zsh/zsh_alias"
+alias list-alias="cat ~/dotfiles/macos/zsh/zsh_alias"
+alias show-alias="cat ~/dotfiles/macos/zsh/zsh_alias"
+
+alias slack-dev="export SLACK_DEVELOPER_MENU=true && open -a /Applications/Slack.app"
