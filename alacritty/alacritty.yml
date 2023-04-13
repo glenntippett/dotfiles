@@ -1,15 +1,15 @@
 # Font configuration
 font:
   # Point size
-  size: 14.0
+  size: 12.0
   normal:
     family: "JetBrainsMono NFM"
     style: "Regular"
 
 window:
   dimensions:
-    columns: 172
-    lines: 45
+    columns: 160
+    lines: 40
 colors:
   # Default colors
   primary:

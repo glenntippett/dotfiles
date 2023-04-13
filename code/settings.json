@@ -18,11 +18,14 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "editor.inlineSuggest.enabled": true,
+  "editor.showFoldingControls": "always",
   "editor.stickyScroll.enabled": true,
 
   "terminal.integrated.cursorStyle": "block",
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.fontFamily": "JetBrainsMono NFM",
+
+  "shellformat.path": "/usr/local/bin/shfmt",
 
   "security.workspace.trust.untrustedFiles": "open",
   "gitlens.hovers.currentLine.over": "line",
@@ -39,7 +42,6 @@
 
   "workbench.startupEditor": "none",
   "workbench.editor.enablePreview": false,
-  "workbench.iconTheme": "twemoji-icon-theme",
   "workbench.preferredDarkColorTheme": "Default Dark+",
   "workbench.preferredLightColorTheme": "Default Light+",
 
@@ -95,7 +97,6 @@
 
   "terminal.integrated.tabs.enabled": false,
   "aws.codeWhisperer.includeSuggestionsWithCodeReferences": false,
-  "workbench.colorTheme": "Ayu Mirage Bordered",
   "workbench.panel.defaultLocation": "left",
   "[python]": {
     "editor.formatOnType": true
@@ -157,8 +158,27 @@
     }
   },
   "git.openRepositoryInParentFolders": "never",
+  "workbench.iconTheme": "material-icon-theme",
+
+  "ruby.useBundler": true,
+  "ruby.useLanguageServer": true,
+  "ruby.lint": {
+    "rubocop": {
+      "useBundler": true
+    },
+    "reek": {
+      "useBundler": true
+    }
+  },
+  "ruby.format": "rubocop",
+
+  "[ruby]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "mbessey.vscode-rufo"
+  },
+
   "editor.minimap.enabled": false,
-  "[ignore]": {
-    "editor.defaultFormatter": "foxundermoon.shell-format"
-  }
+  "workbench.colorTheme": "Ayu Mirage Bordered",
+  "aws.telemetry": false,
+  "window.commandCenter": true
 }
