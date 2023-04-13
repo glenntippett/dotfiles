@@ -4,10 +4,10 @@
       "mode": "auto"
     }
   ],
-  "editor.fontFamily": "Gintronic",
+  "editor.fontFamily": "IBM Plex Mono",
   "editor.cursorStyle": "block",
   "editor.fontLigatures": true,
-  "editor.fontSize": 12,
+  "editor.fontSize": 13,
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": "active",
   "editor.suggest.showMethods": true,
