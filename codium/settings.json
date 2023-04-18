@@ -180,5 +180,6 @@
   "editor.minimap.enabled": false,
   "workbench.colorTheme": "Ayu Mirage Bordered",
   "aws.telemetry": false,
-  "window.commandCenter": true
+  "window.commandCenter": true,
+  "window.menuBarVisibility": "toggle"
 }
