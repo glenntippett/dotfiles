@@ -4,3 +4,5 @@
 	email = 48549970+glenntippett@users.noreply.github.com
 [credential]
 	helper = store
+[pull]
+	rebase = true
