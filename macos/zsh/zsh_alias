@@ -19,6 +19,10 @@ alias start-sfn-local="docker run -p 8083:8083 amazon/aws-stepfunctions-local"
 # Open Repos:
 alias ovo="cd ~/dev/ovo && codium -n ." # Everything
 
+# Releases
+alias bump-version="sh ../au-admin-scripts/scripts/release/bump_version_pr.sh"
+alias release-project="sh ../au-admin-scripts/scripts/release/release_project.sh"
+
 # Day-to-days
 alias cod="codium"
 alias dev="cd ~/dev/ovo/"
