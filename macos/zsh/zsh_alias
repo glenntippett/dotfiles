@@ -17,22 +17,19 @@ alias start-architecture="~/ovo/au-architecture/start-server.sh"
 alias start-sfn-local="docker run -p 8083:8083 amazon/aws-stepfunctions-local"
 
 # Open Repos:
-alias ovo="cd ~/dev/ovo && codium -n ." # Everything
+alias ovo="cd ~/dev/ovo && code -n ." # Everything
 
 # Releases
 alias bump-version="sh ../au-admin-scripts/scripts/release/bump_version_pr.sh"
 alias release-project="sh ../au-admin-scripts/scripts/release/release_project.sh"
 
 # Day-to-days
-alias cod="codium"
+alias gpc="git pull && code -n ."
 alias dev="cd ~/dev/ovo/"
-alias tf="terraform" # FYI: terraform/tf fmt to format a file eg: "tf fmt ./module.tf"
 alias cl="clear"
 alias nv="nvim"
-
 alias ys="yarn start"
-
-alias play="codium -n ~/dev/testing/typescript-playground"
+alias play="code -n ~/dev/testing/typescript-playground"
 
 alias pomodoro="sh ~/code/my-stuff/pomodoro/pomodoro.sh"
 
@@ -44,9 +41,9 @@ alias apollo-uat="cd ~/dev/ovo/ && open graphql-sandbox.html -a 'Google Chrome.a
 alias node-version-name="node -pe process.release.lts"
 
 # Config
-alias edit-zsh="codium -n ~/dotfiles/macos/zsh/.zshrc"
+alias edit-zsh="code -n ~/dotfiles/macos/zsh/.zshrc"
 alias source-zsh="source ~/dotfiles/macos/zsh/.zshrc"
-alias edit-alias="codium -n ~/dotfiles/macos/zsh/zsh_alias"
+alias edit-alias="code -n ~/dotfiles/macos/zsh/zsh_alias"
 
 alias view-alias="cat ~/dotfiles/macos/zsh/zsh_alias"
 alias list-alias="cat ~/dotfiles/macos/zsh/zsh_alias"

@@ -158,7 +158,7 @@
     }
   },
   "git.openRepositoryInParentFolders": "never",
-  "workbench.iconTheme": "material-icon-theme",
+  "workbench.iconTheme": "twemoji-icon-theme",
 
   "ruby.useBundler": true,
   "ruby.useLanguageServer": true,
@@ -176,10 +176,8 @@
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "mbessey.vscode-rufo"
   },
-
-  "editor.minimap.enabled": false,
-  "workbench.colorTheme": "Ayu Mirage Bordered",
   "aws.telemetry": false,
   "window.commandCenter": true,
-  "window.menuBarVisibility": "toggle"
+  "window.menuBarVisibility": "toggle",
+  "workbench.colorTheme": "Ayu Mirage Bordered"
 }

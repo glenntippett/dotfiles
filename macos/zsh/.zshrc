@@ -28,7 +28,6 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 source /Users/glenntippett/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-export PATH="/opt/homebrew/opt/openjdk@11/bin:$PATH"
 
 # THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="$HOME/.sdkman"
@@ -49,3 +48,10 @@ export AWS_DEFAULT_REGION=ap-southeast-2
 # FYI 
 # Ovo Dev Node Version - v16.17.0
 source ~/powerlevel10k/powerlevel10k.zsh-theme
+
+# ENV PATHS
+# Java 11
+export PATH="/opt/homebrew/opt/openjdk@11/bin:$PATH"
+# Terraform
+# https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli
+export PATH="/opt/homebrew/Cellar/terraform/1.4.6/bin:$PATH"
