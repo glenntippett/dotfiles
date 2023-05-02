@@ -15,7 +15,7 @@
   "editor.acceptSuggestionOnEnter": "on",
   "editor.snippetSuggestions": "top",
   "editor.wordWrap": "on",
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
   "editor.formatOnSave": true,
   "editor.inlineSuggest.enabled": true,
   "editor.showFoldingControls": "always",
@@ -24,6 +24,7 @@
   "terminal.integrated.cursorStyle": "block",
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.fontFamily": "JetBrainsMono NFM",
+  "terminal.integrated.fontSize": 12,
 
   "shellformat.path": "/usr/local/bin/shfmt",
 
