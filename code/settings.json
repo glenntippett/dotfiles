@@ -99,7 +99,8 @@
   "aws.codeWhisperer.includeSuggestionsWithCodeReferences": false,
   "workbench.panel.defaultLocation": "left",
   "[python]": {
-    "editor.formatOnType": true
+    "editor.formatOnType": true,
+    "editor.defaultFormatter": "ms-python.autopep8"
   },
   "[shellscript]": {
     "editor.defaultFormatter": "foxundermoon.shell-format"
@@ -179,5 +180,6 @@
   "aws.telemetry": false,
   "window.commandCenter": true,
   "window.menuBarVisibility": "toggle",
-  "workbench.colorTheme": "Ayu Mirage Bordered"
+  "workbench.colorTheme": "Ayu Mirage Bordered",
+  "editor.minimap.enabled": false
 }
