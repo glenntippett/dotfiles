@@ -1,19 +1,2 @@
-# Day-to-days
-alias cod="codium"
-alias tf="terraform" # FYI: terraform/tf fmt to format a file eg: "tf fmt ./module.tf"
-alias cl="clear"
-alias nv="nvim"
-
-alias ys="yarn start"
-
-# Node
-alias node-version-name="node -pe process.release.lts"
-
-# Config
-alias edit-zsh="codium -n ~/dotfiles/ubuntu/zsh/.zshrc"
-alias source-zsh="source ~/dotfiles/ubuntu/zsh/.zshrc"
-alias edit-alias="codium -n ~/dotfiles/ubuntu/zsh/.zsh/zsh_alias"
-
-alias view-alias="cat ~/dotfiles/ubuntu/zsh/.zsh/zsh_alias"
-alias list-alias="cat ~/dotfiles/ubuntu/zsh/.zsh/zsh_alias"
-alias show-alias="cat ~/dotfiles/ubuntu/zsh/.zsh/zsh_alias"
+alias edit-zsh="code -n $DOTFILES_DIR/ubuntu/zsh/.zshrc"
+alias source-zsh="source $DOTFILES_DIR/ubuntu/zsh/.zshrc"

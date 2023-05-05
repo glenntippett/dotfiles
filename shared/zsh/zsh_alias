@@ -1,0 +1,8 @@
+# Day-to-days
+alias gpc="git pull && code -n ."
+alias cl="clear"
+alias nv="nvim"
+alias ys="yarn start"
+
+# Node
+alias node-version-name="node -pe process.release.lts"

@@ -1,3 +1,6 @@
+source ~/dotfiles/variables.sh
+source $DOTFILES_DIR/functions.sh
+
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
@@ -16,12 +19,8 @@ source $ZSH/oh-my-zsh.sh
 # Workaround for zsh-autosuggestions colour not visible when using Solarized terminal theme
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=5'
 
-# Load ZSH Alias'
-if [ -f ~/.zsh/zsh_alias ]; then
-    source ~/.zsh/zsh_alias
-else
-    print "404: ~/.zsh/zsh_alias not found."
-fi
+load_alias $DOTFILES_DIR/shared/zsh/zsh_alias
+load_alias $DOTFILES_DIR/macos/zsh/zsh_alias
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
@@ -29,7 +28,7 @@ export NVM_DIR="$HOME/.nvm"
 
 source /Users/glenntippett/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
-# THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+# THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK
 export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
 
