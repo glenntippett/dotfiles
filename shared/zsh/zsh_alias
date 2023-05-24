@@ -6,3 +6,7 @@ alias ys="yarn start"
 
 # Node
 alias node-version-name="node -pe process.release.lts"
+
+# https://github.com/Everduin94/better-commits
+alias commit="better-commits"
+alias branch="better-branch"
