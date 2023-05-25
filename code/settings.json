@@ -34,7 +34,7 @@
 
   "diffEditor.ignoreTrimWhitespace": false,
   "github.copilot.enable": {
-    "*": true,
+    "*": false,
     "plaintext": false,
     "markdown": false,
     "scminput": false,
@@ -95,7 +95,7 @@
   },
   "githubPullRequests.pullBranch": "never",
   "git.suggestSmartCommit": false,
-  "html.validate.styles": false,
+  "html.validate.styles": true,
 
   "terminal.integrated.tabs.enabled": false,
   "aws.codeWhisperer.includeSuggestionsWithCodeReferences": false,
@@ -184,5 +184,10 @@
   "window.menuBarVisibility": "toggle",
   "workbench.colorTheme": "Ayu Mirage Bordered",
   "editor.minimap.enabled": false,
-  "circleci.hostUrl": ""
+  "circleci.hostUrl": "",
+  "[html]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "breadcrumbs.enabled": false
 }
