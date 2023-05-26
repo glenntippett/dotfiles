@@ -189,5 +189,7 @@
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "vscode.html-language-features"
   },
-  "breadcrumbs.enabled": false
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
