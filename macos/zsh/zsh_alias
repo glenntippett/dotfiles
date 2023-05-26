@@ -23,7 +23,6 @@ alias bump-version="sh ../au-admin-scripts/scripts/release/bump_version_pr.sh"
 alias release-project="sh ../au-admin-scripts/scripts/release/release_project.sh"
 
 # Day-to-days
-alias dev="cd ~/dev/ovo/"
 alias play="code -n ~/dev/testing/typescript-playground"
 alias pomodoro="sh ~/code/my-stuff/pomodoro/pomodoro.sh"
 
