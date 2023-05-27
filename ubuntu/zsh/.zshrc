@@ -62,3 +62,4 @@ eval
                 test -n "$TF_CMD" && print -s $TF_CMD
             }
         
+export PATH=/usr/local/bin/shfmt:$PATH
