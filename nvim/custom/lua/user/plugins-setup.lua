@@ -51,7 +51,7 @@ return packer.startup(function(use)
   -- fuzzy finding
   use({ "nvim-telescope/telescope-fzf-native.nvim", run = "make" }) -- dependency for better sorting
   use({ "nvim-telescope/telescope.nvim", branch = "0.1.x" })
-  
+
   -- autocompletion
   use("hrsh7th/nvim-cmp") -- completion plugin
   use("hrsh7th/cmp-buffer") -- source for text in buffer
@@ -75,7 +75,10 @@ return packer.startup(function(use)
   }) -- enhanced lsp uis
   use("jose-elias-alvarez/typescript.nvim") -- additional functionality for typescript server (e.g. rename file & update imports)
   use("onsails/lspkind.nvim") -- vs-code like icons for autocompletion
-  
+
+  -- formatting and linting
+  use("jose-elias-alvarez/null-ls.nvim")
+  use("jayp0521/mason-null-ls.nvim")
 
   if packer_bootstrap then
     require("packer").sync()
