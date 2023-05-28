@@ -105,6 +105,14 @@ return packer.startup(function(use)
 		tag = "*",
 	})
 
+	use({
+		"folke/which-key.nvim",
+		config = function()
+			vim.o.timeout = true
+			vim.o.timeoutlen = 300
+		end,
+	})
+
 	if packer_bootstrap then
 		require("packer").sync()
 	end
