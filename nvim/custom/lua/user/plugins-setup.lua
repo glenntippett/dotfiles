@@ -117,6 +117,8 @@ return packer.startup(function(use)
 
 	use("lukas-reineke/indent-blankline.nvim")
 
+	use("rcarriga/nvim-notify")
+
 	if packer_bootstrap then
 		require("packer").sync()
 	end

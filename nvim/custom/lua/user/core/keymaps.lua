@@ -22,7 +22,12 @@ keymap.set("n", "<leader>tp", ":tabp<CR>", { desc = "Previous tab" })
 keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>", { desc = "Toggle file explorer" })
 
 -- telescope
-keymap.set("n", "<leader>ff", "<cmd>Telescope find_files<cr>", { desc = "Find FILES in current working directory" }) -- find files within current working directory, respects .gitignore
+keymap.set(
+	"n",
+	"<leader>ff",
+	"<cmd>Telescope find_files hidden=true<cr>",
+	{ desc = "Find FILES in current working directory" }
+) -- find files within current working directory, respects .gitignore
 keymap.set("n", "<leader>fs", "<cmd>Telescope live_grep<cr>", { desc = "Find STRING in current working directory" }) -- find string in current working directory as you type
 keymap.set(
 	"n",
