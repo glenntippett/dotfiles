@@ -113,6 +113,8 @@ return packer.startup(function(use)
 		end,
 	})
 
+	use("f-person/git-blame.nvim")
+
 	if packer_bootstrap then
 		require("packer").sync()
 	end

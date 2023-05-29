@@ -11,4 +11,5 @@ wk.register({
 	f = { name = "File" },
 	s = { name = "Window" },
 	t = { name = "Tabs" },
+	g = { name = "Git" },
 }, { prefix = "<leader>" })
