@@ -11,10 +11,8 @@ function GetWidth()
 	local winwidth = vim.fn.winwidth(0)
 	if winwidth <= 100 then
 		return 30
-	elseif winwidth <= 200 then
-		return 40
 	else
-		return 50
+		return 40
 	end
 end
 
