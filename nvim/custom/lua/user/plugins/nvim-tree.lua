@@ -1,19 +1,32 @@
 local setup, nvimtree = pcall(require, "nvim-tree")
 if not setup then
-  return
+	return
 end
 
 -- recommended settings from nvim-tree documentation
 vim.g.loaded = 1
 vim.g.loaded_netrwPlugin = 1
 
-nvimtree.setup({
- actions = {
-   open_file = {
-     window_picker = {
-       enable = false
-     }
-   }
- }
-})
+function GetWidth()
+	local winwidth = vim.fn.winwidth(0)
+	if winwidth <= 100 then
+		return 30
+	elseif winwidth <= 200 then
+		return 40
+	else
+		return 50
+	end
+end
 
+nvimtree.setup({
+	view = {
+		width = GetWidth(),
+	},
+	actions = {
+		open_file = {
+			window_picker = {
+				enable = false,
+			},
+		},
+	},
+})
