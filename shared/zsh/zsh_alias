@@ -12,6 +12,6 @@ alias commit="better-commits"
 alias branch="better-branch"
 
 # Search files in directory and open in VS Code
-alias f="fd --type f --hidden --exclude .git | fzf-tmux -p --reverse | xargs code"
+alias f="fd --type f --hidden --exclude .git | fzf-tmux -p --reverse | xargs nvim"
 
 alias vim="nvim"
