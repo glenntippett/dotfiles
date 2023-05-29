@@ -3,7 +3,10 @@ if not status then
 	return
 end
 
-which_key.setup({})
+which_key.setup({
+	window = { border = "single" },
+	icons = { group = "" },
+})
 
 local wk = require("which-key")
 
