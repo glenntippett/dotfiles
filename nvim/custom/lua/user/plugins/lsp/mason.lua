@@ -13,7 +13,9 @@ if not mason_null_ls_status then
 	return
 end
 
-mason.setup()
+mason.setup({
+	ui = { border = "single" },
+})
 
 -- Install language servers
 mason_lspconfig.setup({
