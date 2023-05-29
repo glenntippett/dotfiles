@@ -5,6 +5,8 @@ local keymap = vim.keymap
 -- mode  key   replaces
 keymap.set("n", "x", "_x") -- When removing a single character don't copy it
 
+keymap.set("n", "<leader>nh", ":nohl<CR>", { desc = "Clear search highlights" })
+
 -- window management
 keymap.set("n", "<leader>sv", "<C-w>v", { desc = "Split vertically" })
 keymap.set("n", "<leader>sh", "<C-w>s", { desc = "Split horizontally" })
