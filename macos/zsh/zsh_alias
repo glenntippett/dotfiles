@@ -31,3 +31,8 @@ alias apollo-prod="cd ~/dev/ovo/ && open graphql-sandbox-prod.html -a 'Google Ch
 alias apollo-uat="cd ~/dev/ovo/ && open graphql-sandbox.html -a 'Google Chrome.app'"
 
 alias slack-dev="export SLACK_DEVELOPER_MENU=true && open -a /Applications/Slack.app"
+
+alias restart="sudo shutdown -r now"
+
+# Toggle darkmode on/off
+alias darkmode="osascript -e 'tell app \"System Events\" to tell appearance preferences to set dark mode to not dark mode'"
