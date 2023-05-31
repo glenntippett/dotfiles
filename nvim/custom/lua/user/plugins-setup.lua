@@ -34,7 +34,7 @@ return packer.startup(function(use)
 	use("wbthomason/packer.nvim") -- packer
 	use("nvim-lua/plenary.nvim") -- lua functions that many plugins use
 
-	use("folke/tokyonight.nvim") -- colorscheme
+	use("Shatur/neovim-ayu") -- colorscheme
 
 	use("christoomey/vim-tmux-navigator") -- ctrl J, K, H, L to move between splits
 	use("szw/vim-maximizer") -- maximize and restore current window - need to add keymaps
@@ -118,6 +118,14 @@ return packer.startup(function(use)
 	use("lukas-reineke/indent-blankline.nvim")
 
 	use("rcarriga/nvim-notify")
+
+	-- :MarkdownPreview / :MarkdownPreviewStop
+	use({
+		"iamcco/markdown-preview.nvim",
+		run = function()
+			vim.fn["mkdp#util#install"]()
+		end,
+	})
 
 	if packer_bootstrap then
 		require("packer").sync()
