@@ -3,7 +3,7 @@ if not status then
 	return
 end
 
-local ayu_mirage = require("lualine.themes.ayu_mirage")
+local color_theme = require("lualine.themes.everforest")
 
 local colors = {
 	blue = "#65D1FF",
@@ -13,10 +13,10 @@ local colors = {
 	black = "#000000",
 }
 
-ayu_mirage.normal.a.bg = colors.blue
-ayu_mirage.insert.a.bg = colors.green
-ayu_mirage.visual.a.bg = colors.violet
-ayu_mirage.command = {
+color_theme.normal.a.bg = colors.blue
+color_theme.insert.a.bg = colors.green
+color_theme.visual.a.bg = colors.violet
+color_theme.command = {
 	a = {
 		gui = "bold",
 		bg = colors.yellow,
@@ -26,7 +26,7 @@ ayu_mirage.command = {
 
 lualine.setup({
 	options = {
-		theme = ayu_mirage,
+		theme = color_theme,
 	},
 	sections = {
 		lualine_c = {

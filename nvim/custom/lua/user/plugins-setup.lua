@@ -34,7 +34,7 @@ return packer.startup(function(use)
 	use("wbthomason/packer.nvim") -- packer
 	use("nvim-lua/plenary.nvim") -- lua functions that many plugins use
 
-	use("sainnhe/gruvbox-material") -- colorscheme
+	use("sainnhe/everforest") -- colorscheme
 
 	use("christoomey/vim-tmux-navigator") -- ctrl J, K, H, L to move between splits
 	use("szw/vim-maximizer") -- maximize and restore current window - need to add keymaps
