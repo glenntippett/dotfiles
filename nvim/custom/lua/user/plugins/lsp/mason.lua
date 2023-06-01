@@ -26,9 +26,10 @@ mason_lspconfig.setup({
 		"tailwindcss",
 		"lua_ls",
 		"emmet_ls",
+		"terraformls",
 	},
 	-- auto-install configured servers (with lspconfig)
-	automatic_installation = true, -- not the same as ensure_installed
+	automatics_installation = true, -- not the same as ensure_installed
 })
 
 -- Tools that don't have a language server (formatters and linters)
@@ -37,6 +38,7 @@ mason_null_ls.setup({
 		"prettier",
 		"stylua",
 		"eslint_d",
+		"tflint",
 	},
 	-- auto-install configured formatters & linters (with null-ls)
 	automatic_installation = true,

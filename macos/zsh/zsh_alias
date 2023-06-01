@@ -30,7 +30,7 @@ alias pomodoro="sh ~/code/my-stuff/pomodoro/pomodoro.sh"
 alias apollo-prod="cd ~/dev/ovo/ && open graphql-sandbox-prod.html -a 'Google Chrome.app'"
 alias apollo-uat="cd ~/dev/ovo/ && open graphql-sandbox.html -a 'Google Chrome.app'"
 
-alias slack-dev="export SLACK_DEVELOPER_MENU=true && open -a /Applications/Slack.app"
+alias slack="export SLACK_DEVELOPER_MENU=true && open -a /Applications/Slack.app"
 
 alias restart="sudo shutdown -r now"
 
