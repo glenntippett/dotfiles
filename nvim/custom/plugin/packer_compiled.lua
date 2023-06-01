@@ -89,6 +89,11 @@ _G.packer_plugins = {
     path = "/Users/glenntippett/.local/share/nvim/site/pack/packer/start/ReplaceWithRegister",
     url = "https://github.com/vim-scripts/ReplaceWithRegister"
   },
+  ["bufferline.nvim"] = {
+    loaded = true,
+    path = "/Users/glenntippett/.local/share/nvim/site/pack/packer/start/bufferline.nvim",
+    url = "https://github.com/akinsho/bufferline.nvim"
+  },
   ["cmp-buffer"] = {
     loaded = true,
     path = "/Users/glenntippett/.local/share/nvim/site/pack/packer/start/cmp-buffer",
@@ -123,6 +128,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/glenntippett/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
     url = "https://github.com/lewis6991/gitsigns.nvim"
+  },
+  ["gruvbox-material"] = {
+    loaded = true,
+    path = "/Users/glenntippett/.local/share/nvim/site/pack/packer/start/gruvbox-material",
+    url = "https://github.com/sainnhe/gruvbox-material"
   },
   ["inc-rename.nvim"] = {
     config = { "\27LJ\2\n8\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\15inc_rename\frequire\0" },
@@ -164,11 +174,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/glenntippett/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
-  },
-  ["neovim-ayu"] = {
-    loaded = true,
-    path = "/Users/glenntippett/.local/share/nvim/site/pack/packer/start/neovim-ayu",
-    url = "https://github.com/Shatur/neovim-ayu"
   },
   ["null-ls.nvim"] = {
     loaded = true,
