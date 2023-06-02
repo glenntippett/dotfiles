@@ -11,7 +11,7 @@ alias node-version-name="node -pe process.release.lts"
 alias commit="better-commits"
 alias branch="better-branch"
 
-# Search files in directory and open in VS Code
+# Search files in current directory and open in selected editor
 alias ff="fd --type f --hidden --exclude .git | fzf-tmux -p --reverse | xargs nvim"
 
 alias vim="nvim"
