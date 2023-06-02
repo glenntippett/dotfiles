@@ -15,4 +15,5 @@ wk.register({
 	s = { name = "Window" },
 	t = { name = "Tabs" },
 	g = { name = "Git" },
+	b = { name = "Buffer" },
 }, { prefix = "<leader>" })
