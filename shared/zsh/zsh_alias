@@ -15,3 +15,5 @@ alias branch="better-branch"
 alias ff="fd --type f --hidden --exclude .git | fzf-tmux -p --reverse | xargs nvim"
 
 alias vim="nvim"
+
+alias fk="fuck"
