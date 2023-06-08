@@ -8,12 +8,18 @@ if not actions_setup then
 	return
 end
 
+local files_to_ignore = {
+	".git",
+}
+
 telescope.setup({
 	-- configure custom mappings
 	defaults = {
 		layout_config = {
-			mirror = true,
+			mirror = false,
+			prompt_position = "top",
 		},
+		file_ignore_patterns = files_to_ignore,
 		mappings = {
 			i = {
 				["<C-k>"] = actions.move_selection_previous, -- move to prev result
