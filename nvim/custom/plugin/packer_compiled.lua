@@ -114,10 +114,20 @@ _G.packer_plugins = {
     path = "/Users/glenntippett/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
   },
+  ["diffview.nvim"] = {
+    loaded = true,
+    path = "/Users/glenntippett/.local/share/nvim/site/pack/packer/start/diffview.nvim",
+    url = "https://github.com/sindrets/diffview.nvim"
+  },
   everforest = {
     loaded = true,
     path = "/Users/glenntippett/.local/share/nvim/site/pack/packer/start/everforest",
     url = "https://github.com/sainnhe/everforest"
+  },
+  ["fine-cmdline.nvim"] = {
+    loaded = true,
+    path = "/Users/glenntippett/.local/share/nvim/site/pack/packer/start/fine-cmdline.nvim",
+    url = "https://github.com/VonHeikemen/fine-cmdline.nvim"
   },
   ["friendly-snippets"] = {
     loaded = true,
@@ -174,6 +184,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/glenntippett/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
+  },
+  ["nui.nvim"] = {
+    loaded = true,
+    path = "/Users/glenntippett/.local/share/nvim/site/pack/packer/start/nui.nvim",
+    url = "https://github.com/MunifTanjim/nui.nvim"
   },
   ["null-ls.nvim"] = {
     loaded = true,

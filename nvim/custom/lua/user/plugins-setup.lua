@@ -129,6 +129,15 @@ return packer.startup(function(use)
 
 	use({ "akinsho/bufferline.nvim", tag = "*", requires = "nvim-tree/nvim-web-devicons" })
 
+	use("sindrets/diffview.nvim")
+
+	use({
+		"VonHeikemen/fine-cmdline.nvim",
+		requires = {
+			{ "MunifTanjim/nui.nvim" },
+		},
+	})
+
 	if packer_bootstrap then
 		require("packer").sync()
 	end

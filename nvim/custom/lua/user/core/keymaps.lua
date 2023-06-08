@@ -51,3 +51,11 @@ keymap.set("n", "<leader>gs", "<cmd>Telescope git_status<cr>", { desc = "List fi
 
 -- restart lsp server
 keymap.set("n", "<leader>rs", ":LspRestart<CR>", { desc = "Restart LSP" }) -- mapping to restart lsp if necessary
+
+-- Floating commandline
+keymap.set("n", ":", "<cmd>FineCmdline<CR>", { noremap = true })
+
+-- Diffview
+keymap.set("n", "<leader>gdo", ":DiffviewOpen<CR>", { desc = "Open git diff" })
+keymap.set("n", "<leader>gdc", ":DiffviewClose<CR>", { desc = "Close git diff" })
+keymap.set("n", "<leader>gdf", ":DiffviewToggleFiles<CR>", { desc = "Toggle diff file explorer" })

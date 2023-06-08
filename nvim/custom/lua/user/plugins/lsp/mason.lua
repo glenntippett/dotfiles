@@ -39,6 +39,7 @@ mason_null_ls.setup({
 		"stylua",
 		"eslint_d",
 		"tflint",
+		"sonarlint-language-server",
 	},
 	-- auto-install configured formatters & linters (with null-ls)
 	automatic_installation = true,
