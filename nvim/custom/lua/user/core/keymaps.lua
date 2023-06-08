@@ -56,6 +56,6 @@ keymap.set("n", "<leader>rs", ":LspRestart<CR>", { desc = "Restart LSP" }) -- ma
 keymap.set("n", ":", "<cmd>FineCmdline<CR>", { noremap = true })
 
 -- Diffview
-keymap.set("n", "<leader>gdo", ":DiffviewOpen<CR>", { desc = "Open git diff" })
-keymap.set("n", "<leader>gdc", ":DiffviewClose<CR>", { desc = "Close git diff" })
-keymap.set("n", "<leader>gdf", ":DiffviewToggleFiles<CR>", { desc = "Toggle diff file explorer" })
+keymap.set("n", "<leader>gvo", ":DiffviewOpen<CR>", { desc = "Open git diff" })
+keymap.set("n", "<leader>gvc", ":DiffviewClose<CR>", { desc = "Close git diff" })
+keymap.set("n", "<leader>gvf", ":DiffviewToggleFiles<CR>", { desc = "Toggle diff file explorer" })
