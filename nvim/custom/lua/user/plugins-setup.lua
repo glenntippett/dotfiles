@@ -43,9 +43,10 @@ return packer.startup(function(use)
 	use("vim-scripts/ReplaceWithRegister")
 
 	use("numToStr/Comment.nvim") -- commenting with gc (gc 10 j -> comment from current line down to line 10)
-	use("nvim-tree/nvim-tree.lua") -- file explorer
 
-	use("kyazdani42/nvim-web-devicons") -- icons
+	use("nvim-tree/nvim-tree.lua") -- file explorer
+	use("nvim-tree/nvim-web-devicons") -- icons
+
 	use("nvim-lualine/lualine.nvim") -- status line
 
 	-- fuzzy finding
