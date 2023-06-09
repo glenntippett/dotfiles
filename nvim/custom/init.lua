@@ -1,4 +1,4 @@
-require("user.plugins-setup") -- Keep at the top
+require("user.packer-setup") -- Keep at the top
 require("user.core.options")
 require("user.core.keymaps")
 require("user.core.colorscheme")
