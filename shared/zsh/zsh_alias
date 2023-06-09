@@ -17,3 +17,4 @@ alias ff="fd --type f --hidden --exclude .git | fzf-tmux -p --reverse | xargs nv
 alias vim="nvim"
 
 alias fk="fuck -y"
+alias starwars="telnet towel.blinkenlights.nl"
