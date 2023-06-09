@@ -36,6 +36,12 @@ return packer.startup(function(use)
 
 	use("sainnhe/everforest") -- colorscheme
 
+	-- Greeter
+	use({
+		"goolord/alpha-nvim",
+		requires = { "nvim-tree/nvim-web-devicons" },
+	})
+
 	use("christoomey/vim-tmux-navigator") -- ctrl J, K, H, L to move between splits
 	use("szw/vim-maximizer") -- maximize and restore current window - need to add keymaps
 
@@ -132,6 +138,7 @@ return packer.startup(function(use)
 
 	use("sindrets/diffview.nvim")
 
+	-- Floating command line
 	use({
 		"VonHeikemen/fine-cmdline.nvim",
 		requires = {
