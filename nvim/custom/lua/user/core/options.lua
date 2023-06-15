@@ -39,3 +39,7 @@ opt.splitright = true
 opt.splitbelow = true
 
 opt.iskeyword:append("-")
+
+-- options for indent-blankline plugin
+opt.list = true
+opt.listchars:append("space:⋅")
