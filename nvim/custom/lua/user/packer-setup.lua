@@ -34,7 +34,7 @@ return packer.startup({
 		use("wbthomason/packer.nvim") -- packer
 		use("nvim-lua/plenary.nvim") -- lua functions that many plugins use
 
-		use("sainnhe/everforest") -- colorscheme
+		use("NTBBloodbath/doom-one.nvim")
 
 		-- Greeter
 		use({
@@ -135,6 +135,20 @@ return packer.startup({
 		})
 
 		use({ "akinsho/bufferline.nvim", tag = "*", requires = "nvim-tree/nvim-web-devicons" })
+
+		use({
+			"mawkler/modicator.nvim",
+			after = "doom-one.nvim",
+			setup = function()
+				-- These are required for Modicator to work
+				vim.o.cursorline = true
+				vim.o.number = true
+				vim.o.termguicolors = true
+			end,
+			config = function()
+				require("modicator").setup()
+			end,
+		})
 
 		use("sindrets/diffview.nvim")
 

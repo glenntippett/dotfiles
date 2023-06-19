@@ -3,11 +3,11 @@ if not status then
 	return
 end
 
-local color_theme = require("lualine.themes.everforest")
+local color_theme = require("lualine.themes.onedark")
 
 local colors = {
 	blue = "#65D1FF",
-	green = "#3EFFDC",
+	green = "#AAECA2",
 	violet = "#FF61EF",
 	yellow = "#FFDA7B",
 	black = "#000000",

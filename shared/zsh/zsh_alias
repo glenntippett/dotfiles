@@ -24,3 +24,6 @@ alias starwars="telnet towel.blinkenlights.nl"
 alias mkd='dirFun() { mkdir -pv "$1"; cd "$1" }; dirFun '
 
 alias random-password='openssl rand -base64 256 | tr -d '\n' | cut -c 1-256'
+
+# Tmux
+alias tls="tmux ls"

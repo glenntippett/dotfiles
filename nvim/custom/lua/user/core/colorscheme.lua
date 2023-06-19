@@ -1,4 +1,5 @@
-local status, _ = pcall(vim.cmd, "colorscheme everforest") -- Protected call, same as vim.cmd("colorscheme nightfly")
+local status, theme = pcall(vim.cmd, "colorscheme doom-one")
+
 if not status then
 	print("Colorscheme not found")
 	return
