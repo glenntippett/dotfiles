@@ -124,11 +124,6 @@ _G.packer_plugins = {
     path = "/Users/glenntippett/.local/share/nvim/site/pack/packer/start/diffview.nvim",
     url = "https://github.com/sindrets/diffview.nvim"
   },
-  ["doom-one.nvim"] = {
-    loaded = true,
-    path = "/Users/glenntippett/.local/share/nvim/site/pack/packer/start/doom-one.nvim",
-    url = "https://github.com/NTBBloodbath/doom-one.nvim"
-  },
   ["fine-cmdline.nvim"] = {
     loaded = true,
     path = "/Users/glenntippett/.local/share/nvim/site/pack/packer/start/fine-cmdline.nvim",
@@ -250,6 +245,11 @@ _G.packer_plugins = {
     path = "/Users/glenntippett/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
     url = "https://github.com/nvim-tree/nvim-web-devicons"
   },
+  ["oxocarbon.nvim"] = {
+    loaded = true,
+    path = "/Users/glenntippett/.local/share/nvim/site/pack/packer/start/oxocarbon.nvim",
+    url = "https://github.com/nyoom-engineering/oxocarbon.nvim"
+  },
   ["packer.nvim"] = {
     loaded = true,
     path = "/Users/glenntippett/.local/share/nvim/site/pack/packer/start/packer.nvim",
@@ -318,14 +318,14 @@ try_loadstring("\27LJ\2\n8\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K
 time([[Config for inc-rename.nvim]], false)
 -- Load plugins in order defined by `after`
 time([[Sequenced loading]], true)
-vim.cmd [[ packadd doom-one.nvim ]]
+vim.cmd [[ packadd nvim-treesitter ]]
+vim.cmd [[ packadd nvim-ts-autotag ]]
+vim.cmd [[ packadd oxocarbon.nvim ]]
 vim.cmd [[ packadd modicator.nvim ]]
 
 -- Config for: modicator.nvim
 try_loadstring("\27LJ\2\n7\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\14modicator\frequire\0", "config", "modicator.nvim")
 
-vim.cmd [[ packadd nvim-treesitter ]]
-vim.cmd [[ packadd nvim-ts-autotag ]]
 time([[Sequenced loading]], false)
 
 _G._packer.inside_compile = false

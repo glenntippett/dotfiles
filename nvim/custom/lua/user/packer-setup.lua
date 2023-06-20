@@ -34,7 +34,7 @@ return packer.startup({
 		use("wbthomason/packer.nvim") -- packer
 		use("nvim-lua/plenary.nvim") -- lua functions that many plugins use
 
-		use("NTBBloodbath/doom-one.nvim")
+		use("nyoom-engineering/oxocarbon.nvim")
 
 		-- Greeter
 		use({
@@ -138,7 +138,7 @@ return packer.startup({
 
 		use({
 			"mawkler/modicator.nvim",
-			after = "doom-one.nvim",
+			after = "oxocarbon.nvim",
 			setup = function()
 				-- These are required for Modicator to work
 				vim.o.cursorline = true
