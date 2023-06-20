@@ -27,5 +27,3 @@ alias random-password='openssl rand -base64 256 | tr -d '\n' | cut -c 1-256'
 
 # Tmux
 alias tls="tmux ls"
-
-alias cat="bat"
