@@ -26,4 +26,9 @@ theme.section.header.val = {
 	[[    ⠀⠀⠀⠀⠑⠠⢀⣀⣀⠤⠞⠉⠉⠙⠓⠤⣦⣀⣀⠤⠞⠁⠀⠀⠀⠀    ]],
 }
 
+theme.section.buttons.val = {
+	theme.button("P", "  PackerSync", ":PackerSync <CR>"),
+	theme.button("M", "  Mason", ":Mason <CR>"),
+}
+
 alpha.setup(theme.config)
