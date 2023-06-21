@@ -34,7 +34,21 @@ return packer.startup({
 		use("wbthomason/packer.nvim") -- packer
 		use("nvim-lua/plenary.nvim") -- lua functions that many plugins use
 
-		use("nyoom-engineering/oxocarbon.nvim")
+		use({ "rose-pine/neovim", as = "rose-pine" })
+
+		use({
+			"mawkler/modicator.nvim",
+			after = "rose-pine",
+			setup = function()
+				-- These are required for Modicator to work
+				vim.o.cursorline = true
+				vim.o.number = true
+				vim.o.termguicolors = true
+			end,
+			config = function()
+				require("modicator").setup()
+			end,
+		})
 
 		-- Greeter
 		use({
@@ -135,20 +149,6 @@ return packer.startup({
 		})
 
 		use({ "akinsho/bufferline.nvim", tag = "*", requires = "nvim-tree/nvim-web-devicons" })
-
-		use({
-			"mawkler/modicator.nvim",
-			after = "oxocarbon.nvim",
-			setup = function()
-				-- These are required for Modicator to work
-				vim.o.cursorline = true
-				vim.o.number = true
-				vim.o.termguicolors = true
-			end,
-			config = function()
-				require("modicator").setup()
-			end,
-		})
 
 		use("sindrets/diffview.nvim")
 
