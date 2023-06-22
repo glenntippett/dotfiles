@@ -4,7 +4,7 @@
       "mode": "auto"
     }
   ],
-  "editor.fontFamily": "IBM Plex Mono",
+  "editor.fontFamily": "FiraMono Nerd Font",
   "editor.cursorStyle": "block",
   "editor.fontLigatures": true,
   "editor.fontSize": 13,
@@ -23,7 +23,7 @@
 
   "terminal.integrated.cursorStyle": "block",
   "terminal.integrated.cursorBlinking": true,
-  "terminal.integrated.fontFamily": "JetBrainsMono NFM",
+  "terminal.integrated.fontFamily": "FiraMono Nerd Font",
   "terminal.integrated.fontSize": 12,
 
   "shellformat.path": "/usr/local/bin/shfmt",
@@ -191,5 +191,6 @@
   },
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+  "window.zoomLevel": 1
 }
