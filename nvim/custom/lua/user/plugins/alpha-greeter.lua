@@ -31,4 +31,7 @@ theme.section.buttons.val = {
 	theme.button("M", "  Mason", ":Mason <CR>"),
 }
 
+-- Keymaps
+vim.keymap.set("n", "<leader>H", ":Alpha<CR>", { desc = "Open home screen" })
+
 alpha.setup(theme.config)

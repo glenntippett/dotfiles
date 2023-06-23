@@ -1,4 +1,12 @@
-local status, theme = pcall(vim.cmd, "colorscheme rose-pine")
+require("catppuccin").setup({
+	flavour = "mocha",
+	dim_inactive = {
+		enabled = true,
+		percentage = 1,
+	},
+})
+
+local status, _ = pcall(vim.cmd, "colorscheme catppuccin")
 
 if not status then
 	print("Colorscheme not found")

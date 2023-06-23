@@ -34,12 +34,7 @@ return packer.startup({
 		use("wbthomason/packer.nvim") -- packer
 		use("nvim-lua/plenary.nvim") -- lua functions that many plugins use
 
-		use({ "rose-pine/neovim", as = "rose-pine" })
-
-		use({
-			"mawkler/modicator.nvim",
-			after = "rose-pine",
-		})
+		use({ "catppuccin/nvim", as = "catppuccin" })
 
 		-- Greeter
 		use({
