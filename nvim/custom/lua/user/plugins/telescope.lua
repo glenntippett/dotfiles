@@ -17,7 +17,6 @@ telescope.setup({
 	defaults = {
 		layout_config = {
 			mirror = false,
-			prompt_position = "top",
 		},
 		file_ignore_patterns = files_to_ignore,
 		mappings = {
