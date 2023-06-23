@@ -39,15 +39,6 @@ return packer.startup({
 		use({
 			"mawkler/modicator.nvim",
 			after = "rose-pine",
-			setup = function()
-				-- These are required for Modicator to work
-				vim.o.cursorline = true
-				vim.o.number = true
-				vim.o.termguicolors = true
-			end,
-			config = function()
-				require("modicator").setup()
-			end,
 		})
 
 		-- Greeter

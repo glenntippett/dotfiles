@@ -4,6 +4,7 @@ local keymap = vim.keymap
 
 -- mode  key   replaces
 keymap.set("n", "x", "_x") -- When removing a single character don't copy it
+keymap.set("n", "mm", "zz", { desc = "Center window to cursor" })
 
 keymap.set("n", "<leader>nh", ":nohl<CR>", { desc = "Clear search highlights" })
 

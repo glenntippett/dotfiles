@@ -11,7 +11,6 @@ alias commit="better-commits"
 alias branch="better-branch"
 
 # Vim
-alias vim="nvim"
 alias nv="nvim"
 
 # Tmux
