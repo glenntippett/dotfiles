@@ -1,23 +1,24 @@
 # Day-to-days
-alias gpc="git pull && code -n ."
 alias cl="clear"
-alias nv="nvim"
-alias ys="yarn start"
 
 # Node
 alias node-version-name="node -pe process.release.lts"
 
+# Git
+alias revert-last-commit="git revert $(git rev-parse --short HEAD)"
 # https://github.com/Everduin94/better-commits
 alias commit="better-commits"
 alias branch="better-branch"
 
-# Search files in current directory and open in selected editor
-alias fd="fd-find"
-# alias ff="fd --type f --hidden --exclude .git | fzf-tmux -p --reverse | xargs nvim"
-alias ff="fzf --height 100% --layout reverse --info inline --border --preview 'batcat --color=always {}' --preview-window right,1,border-horizontal --bind 'ctrl-/:change-preview-window(50%|hidden|)' | xargs nvim"
-
+# Vim
 alias vim="nvim"
+alias nv="nvim"
 
+# Tmux
+alias tls="tmux ls"
+
+# Other
+alias timestamp="date +%s"
 alias fk="fuck -y"
 alias starwars="telnet towel.blinkenlights.nl"
 
@@ -25,7 +26,8 @@ alias mkd='dirFun() { mkdir -pv "$1"; cd "$1" }; dirFun '
 
 alias random-password='openssl rand -base64 256 | tr -d '\n' | cut -c 1-256'
 
-# Tmux
-alias tls="tmux ls"
+# Search files in current directory and open in selected editor
+alias fd="fd-find"
+# alias ff="fd --type f --hidden --exclude .git | fzf-tmux -p --reverse | xargs nvim"
+alias ff="fzf --height 100% --layout reverse --info inline --border --preview 'batcat --color=always {}' --preview-window right,1,border-horizontal --bind 'ctrl-/:change-preview-window(50%|hidden|)' | xargs nvim"
 
-alias timestamp="date +%s"
