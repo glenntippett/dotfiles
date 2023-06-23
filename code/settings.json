@@ -4,7 +4,7 @@
       "mode": "auto"
     }
   ],
-  "editor.fontFamily": "FiraMono Nerd Font",
+  "editor.fontFamily": "JetBrainsMono NFM",
   "editor.cursorStyle": "block",
   "editor.fontLigatures": true,
   "editor.fontSize": 13,
@@ -23,7 +23,7 @@
 
   "terminal.integrated.cursorStyle": "block",
   "terminal.integrated.cursorBlinking": true,
-  "terminal.integrated.fontFamily": "FiraMono Nerd Font",
+  "terminal.integrated.fontFamily": "JetBrainsMono NFM",
   "terminal.integrated.fontSize": 12,
 
   "shellformat.path": "/usr/local/bin/shfmt",
@@ -161,7 +161,7 @@
     }
   },
   "git.openRepositoryInParentFolders": "never",
-  "workbench.iconTheme": "twemoji-icon-theme",
+  "workbench.iconTheme": "catppuccin-macchiato",
 
   "ruby.useBundler": true,
   "ruby.useLanguageServer": true,
@@ -182,7 +182,7 @@
   "aws.telemetry": false,
   "window.commandCenter": true,
   "window.menuBarVisibility": "toggle",
-  "workbench.colorTheme": "Rosé Pine",
+  "workbench.colorTheme": "Catppuccin Mocha",
   "editor.minimap.enabled": false,
   "circleci.hostUrl": "",
   "[html]": {
