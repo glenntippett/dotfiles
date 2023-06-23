@@ -4,6 +4,11 @@ require("catppuccin").setup({
 		enabled = true,
 		percentage = 1,
 	},
+	integrations = {
+		which_key = true,
+		notify = true,
+		mason = true,
+	},
 })
 
 local status, _ = pcall(vim.cmd, "colorscheme catppuccin")
