@@ -1,5 +1,5 @@
-# Day-to-days
 alias cl="clear"
+alias bat="batcat"
 
 # Node
 alias node-version-name="node -pe process.release.lts"
