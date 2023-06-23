@@ -182,7 +182,7 @@
   "aws.telemetry": false,
   "window.commandCenter": true,
   "window.menuBarVisibility": "toggle",
-  "workbench.colorTheme": "Everforest Dark",
+  "workbench.colorTheme": "Rosé Pine",
   "editor.minimap.enabled": false,
   "circleci.hostUrl": "",
   "[html]": {
