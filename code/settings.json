@@ -33,14 +33,6 @@
   "prettier.semi": false,
 
   "diffEditor.ignoreTrimWhitespace": false,
-  "github.copilot.enable": {
-    "*": false,
-    "plaintext": false,
-    "markdown": false,
-    "scminput": false,
-    "yaml": false,
-    "typescript": true
-  },
 
   "workbench.startupEditor": "none",
   "workbench.editor.enablePreview": false,
@@ -103,9 +95,6 @@
   "[python]": {
     "editor.formatOnType": true,
     "editor.defaultFormatter": "ms-python.autopep8"
-  },
-  "[shellscript]": {
-    "editor.defaultFormatter": "foxundermoon.shell-format"
   },
   "sonarlint.rules": {
     "typescript:S4326": {
@@ -191,6 +180,5 @@
   },
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "window.zoomLevel": 1
+  }
 }
