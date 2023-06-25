@@ -29,3 +29,10 @@ nvimtree.setup({
 		},
 	},
 })
+
+local icons_setup, icons = pcall(require, "nvim-web-devicons")
+if not icons_setup then
+	return "nope"
+end
+
+icons.get_icons()

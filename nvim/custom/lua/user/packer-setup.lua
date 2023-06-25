@@ -15,7 +15,6 @@ end
 
 local packer_bootstrap = ensure_packer()
 
--- Autocommand that reloads neovim whenever this file is saved
 vim.cmd([[
   augroup packer_user_config
     autocmd!
@@ -155,6 +154,10 @@ return packer.startup({
 			open_fn = function()
 				return require("packer.util").float({ border = "single" })
 			end,
+		},
+		profile = {
+			enable = true,
+			threshold = 1, -- the amount in ms that a plugin's load time must be over for it to be included in the profile
 		},
 	},
 })

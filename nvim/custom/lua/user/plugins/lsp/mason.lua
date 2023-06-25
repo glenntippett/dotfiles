@@ -41,6 +41,7 @@ mason_null_ls.setup({
 		"eslint_d",
 		"tflint",
 		"sonarlint-language-server",
+		"rubocop",
 	},
 	-- auto-install configured formatters & linters (with null-ls)
 	automatic_installation = true,
