@@ -51,6 +51,11 @@ lspconfig["html"].setup({
 	on_attach = on_attach,
 })
 
+lspconfig["ruby_ls"].setup({
+	capabilities = capabilities,
+	on_attach = on_attach,
+})
+
 -- configure typescript server with plugin
 typescript.setup({
 	server = {
