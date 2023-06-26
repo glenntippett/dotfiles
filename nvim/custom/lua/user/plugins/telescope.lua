@@ -10,6 +10,7 @@ end
 
 local files_to_ignore = {
 	".git",
+	"yarn.lock",
 }
 
 telescope.setup({
