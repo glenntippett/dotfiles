@@ -27,7 +27,6 @@ mason_lspconfig.setup({
 		"lua_ls",
 		"emmet_ls",
 		"terraformls",
-		"ruby_ls",
 	},
 	-- auto-install configured servers (with lspconfig)
 	automatics_installation = true, -- not the same as ensure_installed
@@ -41,7 +40,6 @@ mason_null_ls.setup({
 		"eslint_d",
 		"tflint",
 		"sonarlint-language-server",
-		"rubocop",
 	},
 	-- auto-install configured formatters & linters (with null-ls)
 	automatic_installation = true,
