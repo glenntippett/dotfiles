@@ -19,9 +19,9 @@ keymap.set("n", "<leader>tn", ":tabn<CR>", { desc = "Next tab" })
 keymap.set("n", "<leader>tp", ":tabp<CR>", { desc = "Previous tab" })
 
 -- buffers
-keymap.set("n", "<leader>bn", ":bnext<CR>", { desc = "Next buffer" })
-keymap.set("n", "<leader>bp", ":bprevious<CR>", { desc = "Previous buffer" })
-keymap.set("n", "<leader>bx", ":bd<CR>", { desc = "Close buffer" })
+keymap.set("n", "<leader>l", ":bnext<CR>", { desc = "Next buffer" })
+keymap.set("n", "<leader>h", ":bprevious<CR>", { desc = "Previous buffer" })
+keymap.set("n", "<leader>w", ":bd<CR>", { desc = "Close buffer" })
 
 -- nvim-tree
 keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>", { desc = "Toggle file explorer" })
