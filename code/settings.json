@@ -26,8 +26,6 @@
   "terminal.integrated.fontFamily": "JetBrainsMono NFM",
   "terminal.integrated.fontSize": 12,
 
-  "shellformat.path": "/usr/local/bin/shfmt",
-
   "security.workspace.trust.untrustedFiles": "open",
   "gitlens.hovers.currentLine.over": "line",
   "prettier.semi": false,
@@ -150,7 +148,7 @@
     }
   },
   "git.openRepositoryInParentFolders": "never",
-  "workbench.iconTheme": "catppuccin-macchiato",
+  "workbench.iconTheme": "twemoji-icon-theme",
 
   "ruby.useBundler": true,
   "ruby.useLanguageServer": true,
@@ -163,7 +161,6 @@
     }
   },
   "ruby.format": "rubocop",
-
   "[ruby]": {
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "mbessey.vscode-rufo"
@@ -171,14 +168,13 @@
   "aws.telemetry": false,
   "window.commandCenter": true,
   "window.menuBarVisibility": "toggle",
-  "workbench.colorTheme": "Catppuccin Mocha",
-  "editor.minimap.enabled": false,
-  "circleci.hostUrl": "",
   "[html]": {
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "vscode.html-language-features"
   },
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+  "editor.minimap.enabled": false,
+  "workbench.colorTheme": "Catppuccin Macchiato"
 }

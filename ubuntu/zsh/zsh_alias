@@ -1,2 +1,4 @@
 alias edit-zsh="code -n $DOTFILES_DIR/ubuntu/zsh/.zshrc"
 alias source-zsh="source $DOTFILES_DIR/ubuntu/zsh/.zshrc"
+
+alias bat="batcat"
