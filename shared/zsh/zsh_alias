@@ -4,7 +4,6 @@ alias cl="clear"
 alias node-version-name="node -pe process.release.lts"
 
 # Git
-alias revert-last-commit="git revert $(git rev-parse --short HEAD)"
 # https://github.com/Everduin94/better-commits
 alias commit="better-commits"
 alias branch="better-branch"
