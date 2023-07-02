@@ -176,5 +176,5 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "editor.minimap.enabled": false,
-  "workbench.colorTheme": "Catppuccin Macchiato"
+  "workbench.colorTheme": "Jellybeans Theme"
 }

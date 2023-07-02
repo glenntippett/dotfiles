@@ -4,9 +4,6 @@ if not status then
 end
 
 lualine.setup({
-	options = {
-		theme = "catppuccin",
-	},
 	sections = {
 		lualine_c = {
 			{

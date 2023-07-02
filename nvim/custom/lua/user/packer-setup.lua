@@ -33,8 +33,7 @@ return packer.startup({
 		use("wbthomason/packer.nvim") -- packer
 		use("nvim-lua/plenary.nvim") -- lua functions that many plugins use
 
-		use({ "catppuccin/nvim", as = "catppuccin" })
-
+		use({ "metalelf0/jellybeans-nvim", requires = { "rktjmp/lush.nvim" } })
 		-- Greeter
 		use({
 			"goolord/alpha-nvim",

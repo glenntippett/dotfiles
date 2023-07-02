@@ -99,11 +99,6 @@ _G.packer_plugins = {
     path = "/Users/glenntippett/.local/share/nvim/site/pack/packer/start/bufferline.nvim",
     url = "https://github.com/akinsho/bufferline.nvim"
   },
-  catppuccin = {
-    loaded = true,
-    path = "/Users/glenntippett/.local/share/nvim/site/pack/packer/start/catppuccin",
-    url = "https://github.com/catppuccin/nvim"
-  },
   ["cmp-buffer"] = {
     loaded = true,
     path = "/Users/glenntippett/.local/share/nvim/site/pack/packer/start/cmp-buffer",
@@ -160,6 +155,11 @@ _G.packer_plugins = {
     path = "/Users/glenntippett/.local/share/nvim/site/pack/packer/start/indent-blankline.nvim",
     url = "https://github.com/lukas-reineke/indent-blankline.nvim"
   },
+  ["jellybeans-nvim"] = {
+    loaded = true,
+    path = "/home/glenn/.local/share/nvim/site/pack/packer/start/jellybeans-nvim",
+    url = "https://github.com/metalelf0/jellybeans-nvim"
+  },
   ["lspkind.nvim"] = {
     loaded = true,
     path = "/Users/glenntippett/.local/share/nvim/site/pack/packer/start/lspkind.nvim",
@@ -169,6 +169,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/glenntippett/.local/share/nvim/site/pack/packer/start/lualine.nvim",
     url = "https://github.com/nvim-lualine/lualine.nvim"
+  },
+  ["lush.nvim"] = {
+    loaded = true,
+    path = "/home/glenn/.local/share/nvim/site/pack/packer/start/lush.nvim",
+    url = "https://github.com/rktjmp/lush.nvim"
   },
   ["markdown-preview.nvim"] = {
     loaded = true,
