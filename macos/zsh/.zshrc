@@ -12,9 +12,6 @@ plugins=(git zsh-autosuggestions web-search)
 
 source $ZSH/oh-my-zsh.sh
 
-# Workaround for zsh-autosuggestions colour not visible when using Solarized terminal theme
-# ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=5'
-
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 

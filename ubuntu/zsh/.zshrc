@@ -10,12 +10,9 @@ export ZSH="$HOME/.oh-my-zsh"
 ZSH_THEME="frisk"
 
 # Plugins
-plugins=(git zsh-autosuggestions ssh-agent web-search)
+plugins=(git zsh-autosuggestions web-search)
 
 source $ZSH/oh-my-zsh.sh
-
-# Workaround for zsh-autosuggestions colour not visible when using Solarized terminal theme
-# ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=5'
 
 load_alias $DOTFILES_DIR/shared/zsh/zsh_alias
 load_alias $DOTFILES_DIR/ubuntu/zsh/zsh_alias
