@@ -16,4 +16,5 @@ wk.register({
 	t = { name = "Tabs" },
 	g = { name = "Git", { v = { name = "Diffview" } } },
 	b = { name = "Buffer" },
+	r = { name = "Typescript", { n = { name = "Rename Var" }, u = "Remove unused import" } },
 }, { prefix = "<leader>" })
