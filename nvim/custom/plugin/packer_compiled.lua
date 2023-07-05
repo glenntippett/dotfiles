@@ -129,6 +129,11 @@ _G.packer_plugins = {
     path = "/Users/glenntippett/.local/share/nvim/site/pack/packer/start/fine-cmdline.nvim",
     url = "https://github.com/VonHeikemen/fine-cmdline.nvim"
   },
+  ["fleet-theme-nvim"] = {
+    loaded = true,
+    path = "/Users/glenntippett/.local/share/nvim/site/pack/packer/start/fleet-theme-nvim",
+    url = "https://github.com/felipeagc/fleet-theme-nvim"
+  },
   ["friendly-snippets"] = {
     loaded = true,
     path = "/Users/glenntippett/.local/share/nvim/site/pack/packer/start/friendly-snippets",
@@ -155,11 +160,6 @@ _G.packer_plugins = {
     path = "/Users/glenntippett/.local/share/nvim/site/pack/packer/start/indent-blankline.nvim",
     url = "https://github.com/lukas-reineke/indent-blankline.nvim"
   },
-  ["jellybeans-nvim"] = {
-    loaded = true,
-    path = "/Users/glenntippett/.local/share/nvim/site/pack/packer/start/jellybeans-nvim",
-    url = "https://github.com/metalelf0/jellybeans-nvim"
-  },
   ["lspkind.nvim"] = {
     loaded = true,
     path = "/Users/glenntippett/.local/share/nvim/site/pack/packer/start/lspkind.nvim",
@@ -169,11 +169,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/glenntippett/.local/share/nvim/site/pack/packer/start/lualine.nvim",
     url = "https://github.com/nvim-lualine/lualine.nvim"
-  },
-  ["lush.nvim"] = {
-    loaded = true,
-    path = "/Users/glenntippett/.local/share/nvim/site/pack/packer/start/lush.nvim",
-    url = "https://github.com/rktjmp/lush.nvim"
   },
   ["markdown-preview.nvim"] = {
     loaded = true,
@@ -246,6 +241,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/glenntippett/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
     url = "https://github.com/nvim-tree/nvim-web-devicons"
+  },
+  ["package-info.nvim"] = {
+    loaded = true,
+    path = "/Users/glenntippett/.local/share/nvim/site/pack/packer/start/package-info.nvim",
+    url = "https://github.com/vuki656/package-info.nvim"
   },
   ["packer.nvim"] = {
     loaded = true,

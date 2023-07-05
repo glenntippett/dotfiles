@@ -33,7 +33,8 @@ return packer.startup({
 		use("wbthomason/packer.nvim") -- packer
 		use("nvim-lua/plenary.nvim") -- lua functions that many plugins use
 
-		use({ "metalelf0/jellybeans-nvim", requires = { "rktjmp/lush.nvim" } })
+		use("felipeagc/fleet-theme-nvim")
+
 		-- Greeter
 		use({
 			"goolord/alpha-nvim",
@@ -143,6 +144,8 @@ return packer.startup({
 				{ "MunifTanjim/nui.nvim" },
 			},
 		})
+
+		use({ "vuki656/package-info.nvim", requires = "MunifTanjim/nui.nvim" })
 
 		if packer_bootstrap then
 			require("packer").sync()
