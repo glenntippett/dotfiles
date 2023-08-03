@@ -4,7 +4,7 @@
       "mode": "auto"
     }
   ],
-  "editor.fontFamily": "Fira Code",
+  "editor.fontFamily": "MonoLisa",
   "editor.cursorStyle": "line",
   "editor.fontLigatures": true,
   "editor.fontSize": 14,
