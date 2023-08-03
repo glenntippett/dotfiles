@@ -7,7 +7,7 @@
   "editor.fontFamily": "MonoLisa",
   "editor.cursorStyle": "line",
   "editor.fontLigatures": true,
-  "editor.fontSize": 14,
+  "editor.fontSize": 16,
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": "active",
   "editor.suggest.showMethods": true,
@@ -164,7 +164,6 @@
   },
   "aws.telemetry": false,
   "window.commandCenter": true,
-  "window.menuBarVisibility": "toggle",
   "[html]": {
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "vscode.html-language-features"
