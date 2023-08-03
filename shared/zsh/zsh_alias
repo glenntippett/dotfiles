@@ -25,6 +25,6 @@ alias random-password='openssl rand -base64 256 | tr -d '\n' | cut -c 1-256'
 
 # Search files in current directory and open in selected editor
 alias fd="fd-find"
-# alias ff="fd --type f --hidden --exclude .git | fzf-tmux -p --reverse | xargs nvim"
-alias ff="fzf --height 100% --layout reverse --info inline --border --preview 'batcat --color=always {}' --preview-window right,1,border-horizontal --bind 'ctrl-/:change-preview-window(50%|hidden|)' | xargs nvim"
+
+alias ff="fzf --exclude node_modules --height 100% --layout reverse --info inline --border --preview 'batcat --color=always {}' --preview-window right,1,border-horizontal --bind 'ctrl-/:change-preview-window(50%|hidden|)' | xargs code -n ."
 

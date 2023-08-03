@@ -4,10 +4,10 @@
       "mode": "auto"
     }
   ],
-  "editor.fontFamily": "JetBrainsMono NFM",
+  "editor.fontFamily": "Fira Code",
   "editor.cursorStyle": "line",
   "editor.fontLigatures": true,
-  "editor.fontSize": 13,
+  "editor.fontSize": 14,
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": "active",
   "editor.suggest.showMethods": true,
@@ -23,12 +23,11 @@
 
   "terminal.integrated.cursorStyle": "block",
   "terminal.integrated.cursorBlinking": true,
-  "terminal.integrated.fontFamily": "JetBrainsMono NFM",
-  "terminal.integrated.fontSize": 12,
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "terminal.integrated.fontSize": 14,
 
   "security.workspace.trust.untrustedFiles": "open",
   "gitlens.hovers.currentLine.over": "line",
-  "prettier.semi": false,
 
   "diffEditor.ignoreTrimWhitespace": false,
 
@@ -86,8 +85,6 @@
   "githubPullRequests.pullBranch": "never",
   "git.suggestSmartCommit": false,
   "html.validate.styles": true,
-
-  "terminal.integrated.tabs.enabled": false,
   "aws.codeWhisperer.includeSuggestionsWithCodeReferences": false,
   "workbench.panel.defaultLocation": "left",
   "[python]": {
@@ -138,7 +135,7 @@
       "level": "on"
     },
     "typescript:S103": {
-      "level": "on"
+      "level": "off"
     },
     "typescript:S881": {
       "level": "on"
@@ -175,6 +172,7 @@
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "editor.minimap.enabled": false,
-  "workbench.colorTheme": "Jellybeans Theme"
+  "workbench.colorTheme": "Ayu Mirage Bordered",
+  "telemetry.telemetryLevel": "off",
+  "editor.minimap.enabled": false
 }

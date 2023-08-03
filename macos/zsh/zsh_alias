@@ -2,7 +2,7 @@ alias edit-zsh="code -n $DOTFILES_DIR/macos/zsh/.zshrc"
 alias source-zsh="source $DOTFILES_DIR/macos/zsh/.zshrc"
 
 # OVO repositories
-alias start-supply-service="cd ~/dev/ovo/au-supplyaccount-service && gco setup && ./scripts/runDevMode.sh"
+alias start-supply-service="cd ~/dev/ovo/au-supplyaccount-service && ./scripts/runDevMode.sh"
 alias start-payment-service="cd ~/dev/ovo/payment-service/api && yarn start:dev"
 alias start-promotions-service="cd ~/dev/ovo/promotions-service && cd node && yarn start:dev"
 alias start-myovo-api="cd ~/dev/ovo/au-myovo-api && yarn && yarn start:dev"
@@ -15,8 +15,8 @@ alias update-myovo-ui="cd ~/dev/ovo/au-myovo-ui && gco main && git pull"
 
 alias start-architecture="~/ovo/au-architecture/start-server.sh"
 
-# Open Repos:
-alias ovo="cd ~/dev/ovo && code -n ." # Everything
+# Go to OVO repo's:
+alias ovo="cd ~/dev/ovo"
 
 # Releases
 alias bump-version="sh ../au-admin-scripts/scripts/release/bump_version_pr.sh"
