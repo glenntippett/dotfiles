@@ -6,3 +6,6 @@
 	helper = store
 [pull]
 	rebase = true
+[alias]
+  sweep = !git branch --merged master | grep -v 'master$' | xargs git branch -d\
+          && git remote prune origin

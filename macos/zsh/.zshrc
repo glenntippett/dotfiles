@@ -44,4 +44,4 @@ source /opt/homebrew/opt/powerlevel10k/powerlevel10k.zsh-theme
 # If you need to have openjdk@11 first in your PATH, run:
 # export PATH="/opt/homebrew/opt/openjdk@11/bin:$PATH"
 # For compilers to find openjdk@11 you may need to set:
-# export CPPFLAGS="-I/opt/homebrew/opt/openjdk@11/include"
+# export CPPFLAGS="-I/opt/homebrew/opt/openjdk@11/include"export PATH=~/bin:$PATH

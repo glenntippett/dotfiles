@@ -1,3 +1,2 @@
 export PATH="/opt/homebrew/opt/openjdk@11/bin:$PATH"
-export PATH="~/bin:$PATH"
-
+export PATH="$PATH:$HOME/bin"

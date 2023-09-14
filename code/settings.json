@@ -1,9 +1,4 @@
 {
-  "eslint.workingDirectories": [
-    {
-      "mode": "auto"
-    }
-  ],
   "editor.fontFamily": "MonoLisa",
   "editor.cursorStyle": "line",
   "editor.fontLigatures": true,
@@ -21,6 +16,11 @@
   "editor.showFoldingControls": "always",
   "editor.stickyScroll.enabled": true,
 
+  "emmet.includeLanguages": {
+    "erb": "html",
+    "ruby": "html"
+  },
+
   "terminal.integrated.cursorStyle": "block",
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.fontFamily": "MesloLGS NF",
@@ -29,16 +29,22 @@
   "security.workspace.trust.untrustedFiles": "open",
   "gitlens.hovers.currentLine.over": "line",
 
-  "diffEditor.ignoreTrimWhitespace": false,
-
   "workbench.startupEditor": "none",
-  "workbench.editor.enablePreview": false,
+  "workbench.editor.enablePreview": true,
   "workbench.preferredDarkColorTheme": "Default Dark+",
   "workbench.preferredLightColorTheme": "Default Light+",
 
+  "typescript.tsserver.experimental.enableProjectDiagnostics": true,
+
   "eslint.codeAction.showDocumentation": {
-    "enable": false
+    "enable": true
   },
+  "eslint.workingDirectories": [
+    {
+      "mode": "auto"
+    }
+  ],
+
   "typescript.updateImportsOnFileMove.enabled": "always",
   "javascript.updateImportsOnFileMove.enabled": "always",
   "yaml.customTags": [
@@ -171,7 +177,9 @@
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "workbench.colorTheme": "Ayu Mirage Bordered",
   "telemetry.telemetryLevel": "off",
+  "editor.largeFileOptimizations": true,
+  "workbench.colorTheme": "Material Theme Ocean High Contrast",
+  "diffEditor.experimental.showMoves": true,
   "editor.minimap.enabled": false
 }
