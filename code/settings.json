@@ -1,8 +1,8 @@
 {
-  "editor.fontFamily": "MonoLisa",
+  "editor.fontFamily": "JetBrainsMono NFM",
   "editor.cursorStyle": "line",
   "editor.fontLigatures": true,
-  "editor.fontSize": 14,
+  "editor.fontSize": 16,
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": "active",
   "editor.suggest.showMethods": true,
@@ -179,7 +179,7 @@
   },
   "telemetry.telemetryLevel": "off",
   "editor.largeFileOptimizations": true,
-  "workbench.colorTheme": "Material Theme Ocean High Contrast",
+  "workbench.colorTheme": "Material Theme Palenight High Contrast",
   "diffEditor.experimental.showMoves": true,
   "editor.minimap.enabled": false
 }
