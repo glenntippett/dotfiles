@@ -36,3 +36,5 @@ alias restart="sudo shutdown -r now"
 
 # Toggle darkmode on/off
 alias darkmode="osascript -e 'tell app \"System Events\" to tell appearance preferences to set dark mode to not dark mode'"
+
+alias ws="webstorm"

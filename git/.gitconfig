@@ -1,3 +1,5 @@
+[core]
+    excludesfile = .idea/
 [init]
 	defaultBranch = main
 [user]
@@ -9,3 +11,5 @@
 [alias]
   sweep = !git branch --merged master | grep -v 'master$' | xargs git branch -d\
           && git remote prune origin
+[core]
+    excludesfile = ~/.gitignore # create this file and add ignored directories to it

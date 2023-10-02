@@ -2,7 +2,7 @@
   "editor.fontFamily": "JetBrainsMono NFM",
   "editor.cursorStyle": "line",
   "editor.fontLigatures": true,
-  "editor.fontSize": 16,
+  "editor.fontSize": 14,
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": "active",
   "editor.suggest.showMethods": true,
@@ -30,7 +30,7 @@
   "gitlens.hovers.currentLine.over": "line",
 
   "workbench.startupEditor": "none",
-  "workbench.editor.enablePreview": true,
+  "workbench.editor.enablePreview": false,
   "workbench.preferredDarkColorTheme": "Default Dark+",
   "workbench.preferredLightColorTheme": "Default Light+",
 
@@ -120,7 +120,7 @@
       "level": "on"
     },
     "typescript:S121": {
-      "level": "on"
+      "level": "off"
     },
     "typescript:S3513": {
       "level": "on"
@@ -147,6 +147,9 @@
       "level": "on"
     },
     "typescript:S109": {
+      "level": "on"
+    },
+    "typescript:S6544": {
       "level": "on"
     }
   },
@@ -179,7 +182,7 @@
   },
   "telemetry.telemetryLevel": "off",
   "editor.largeFileOptimizations": true,
-  "workbench.colorTheme": "Material Theme Palenight High Contrast",
+  "workbench.colorTheme": "Ayu Mirage Bordered",
   "diffEditor.experimental.showMoves": true,
-  "editor.minimap.enabled": false
+  "sonarlint.connectedMode.connections.sonarcloud": []
 }
