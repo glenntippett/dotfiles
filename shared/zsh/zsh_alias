@@ -16,7 +16,6 @@ alias tls="tmux ls"
 
 # Other
 alias timestamp="date +%s"
-alias fk="fuck -y"
 alias starwars="telnet towel.blinkenlights.nl"
 
 alias mkd='dirFun() { mkdir -pv "$1"; cd "$1" }; dirFun '

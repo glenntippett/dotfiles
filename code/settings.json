@@ -1,8 +1,8 @@
 {
-  "editor.fontFamily": "JetBrainsMono NFM",
+  "editor.fontFamily": "Source Code Pro for Powerline",
+  "editor.fontSize": 14,
   "editor.cursorStyle": "line",
   "editor.fontLigatures": true,
-  "editor.fontSize": 14,
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": "active",
   "editor.suggest.showMethods": true,
@@ -16,6 +16,11 @@
   "editor.showFoldingControls": "always",
   "editor.stickyScroll.enabled": true,
 
+  "window.commandCenter": true,
+  "window.density.editorTabHeight": "compact",
+
+  "debug.toolBarLocation": "commandCenter",
+
   "emmet.includeLanguages": {
     "erb": "html",
     "ruby": "html"
@@ -24,7 +29,7 @@
   "terminal.integrated.cursorStyle": "block",
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.fontFamily": "MesloLGS NF",
-  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontSize": 12,
 
   "security.workspace.trust.untrustedFiles": "open",
   "gitlens.hovers.currentLine.over": "line",
@@ -147,7 +152,7 @@
       "level": "on"
     },
     "typescript:S109": {
-      "level": "on"
+      "level": "off"
     },
     "typescript:S6544": {
       "level": "on"
@@ -172,7 +177,6 @@
     "editor.defaultFormatter": "mbessey.vscode-rufo"
   },
   "aws.telemetry": false,
-  "window.commandCenter": true,
   "[html]": {
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "vscode.html-language-features"
@@ -184,5 +188,8 @@
   "editor.largeFileOptimizations": true,
   "workbench.colorTheme": "Ayu Mirage Bordered",
   "diffEditor.experimental.showMoves": true,
-  "sonarlint.connectedMode.connections.sonarcloud": []
+  "sonarlint.connectedMode.connections.sonarcloud": [],
+  "circleci.hostUrl": "",
+  "vscode-pets.petSize": "medium",
+  "editor.minimap.enabled": false
 }

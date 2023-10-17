@@ -28,8 +28,6 @@ autoload -U +X bashcompinit && bashcompinit
 
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
 
-eval $(thefuck --alias)
-
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 source /opt/homebrew/opt/powerlevel10k/powerlevel10k.zsh-theme
@@ -45,3 +43,19 @@ source /opt/homebrew/opt/powerlevel10k/powerlevel10k.zsh-theme
 # export PATH="/opt/homebrew/opt/openjdk@11/bin:$PATH"
 # For compilers to find openjdk@11 you may need to set:
 # export CPPFLAGS="-I/opt/homebrew/opt/openjdk@11/include"export PATH=~/bin:$PATH
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/glenntippett/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/glenntippett/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/glenntippett/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/glenntippett/google-cloud-sdk/completion.zsh.inc'; fi
+
+export GEM_HOME=$HOME/.gem
+export PATH=$GEM_HOME/bin:$PATH
+export PATH=$HOME/.gem/ruby/3.2.0/bin:$PATH
+
+
+if [ -d "/opt/homebrew/opt/ruby/bin" ]; then
+  export PATH=/opt/homebrew/opt/ruby/bin:$PATH
+  export PATH=`gem environment gemdir`/bin:$PATH
+fi
