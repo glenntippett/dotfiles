@@ -186,10 +186,10 @@
   },
   "telemetry.telemetryLevel": "off",
   "editor.largeFileOptimizations": true,
-  "workbench.colorTheme": "Ayu Mirage Bordered",
+  "workbench.colorTheme": "GitHub Dark Default",
   "diffEditor.experimental.showMoves": true,
   "sonarlint.connectedMode.connections.sonarcloud": [],
   "circleci.hostUrl": "",
   "vscode-pets.petSize": "medium",
-  "editor.minimap.enabled": false
+  "inline-parameters.enabled": true
 }
