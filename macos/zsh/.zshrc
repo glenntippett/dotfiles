@@ -54,8 +54,6 @@ export GEM_HOME=$HOME/.gem
 export PATH=$GEM_HOME/bin:$PATH
 export PATH=$HOME/.gem/ruby/3.2.0/bin:$PATH
 
+source /opt/homebrew/opt/chruby/share/chruby/chruby.sh
+chruby ruby-3.2.2
 
-if [ -d "/opt/homebrew/opt/ruby/bin" ]; then
-  export PATH=/opt/homebrew/opt/ruby/bin:$PATH
-  export PATH=`gem environment gemdir`/bin:$PATH
-fi

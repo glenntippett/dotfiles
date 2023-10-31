@@ -1,7 +1,7 @@
 {
-  "editor.fontFamily": "Source Code Pro for Powerline",
+  "editor.fontFamily": "Source Code Pro",
   "editor.fontSize": 14,
-  "editor.cursorStyle": "line",
+  "editor.cursorStyle": "block",
   "editor.fontLigatures": true,
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": "active",
@@ -186,10 +186,12 @@
   },
   "telemetry.telemetryLevel": "off",
   "editor.largeFileOptimizations": true,
-  "workbench.colorTheme": "GitHub Dark Default",
+  "workbench.colorTheme": "Halcyon",
   "diffEditor.experimental.showMoves": true,
   "sonarlint.connectedMode.connections.sonarcloud": [],
   "circleci.hostUrl": "",
   "vscode-pets.petSize": "medium",
-  "inline-parameters.enabled": true
+  "inline-parameters.enabled": true,
+  "githubPullRequests.terminalLinksHandler": "github",
+  "editor.minimap.enabled": false
 }
