@@ -26,8 +26,6 @@ source /Users/glenntippett/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 autoload -U +X bashcompinit && bashcompinit
 
-[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
-
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 source /opt/homebrew/opt/powerlevel10k/powerlevel10k.zsh-theme
@@ -57,3 +55,4 @@ export PATH=$HOME/.gem/ruby/3.2.0/bin:$PATH
 source /opt/homebrew/opt/chruby/share/chruby/chruby.sh
 chruby ruby-3.2.2
 
+export PATH="/opt/homebrew/opt/openjdk@17/bin:$PATH"
