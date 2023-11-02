@@ -1,7 +1,7 @@
 {
   "editor.fontFamily": "Source Code Pro",
   "editor.fontSize": 14,
-  "editor.cursorStyle": "block",
+  "editor.cursorStyle": "line",
   "editor.fontLigatures": true,
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": "active",
@@ -186,12 +186,13 @@
   },
   "telemetry.telemetryLevel": "off",
   "editor.largeFileOptimizations": true,
-  "workbench.colorTheme": "Halcyon",
+  "workbench.colorTheme": "Default Dark+",
   "diffEditor.experimental.showMoves": true,
   "sonarlint.connectedMode.connections.sonarcloud": [],
   "circleci.hostUrl": "",
   "vscode-pets.petSize": "medium",
   "inline-parameters.enabled": true,
   "githubPullRequests.terminalLinksHandler": "github",
-  "editor.minimap.enabled": false
+  "editor.minimap.enabled": false,
+  "workbench.activityBar.location": "top"
 }
