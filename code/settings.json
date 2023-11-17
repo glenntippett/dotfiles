@@ -37,6 +37,7 @@
   "workbench.editor.enablePreview": false,
   "workbench.preferredDarkColorTheme": "Default Dark+",
   "workbench.preferredLightColorTheme": "Default Light+",
+  "workbench.editor.pinnedTabsOnSeparateRow": true,
 
   "typescript.tsserver.experimental.enableProjectDiagnostics": true,
 
