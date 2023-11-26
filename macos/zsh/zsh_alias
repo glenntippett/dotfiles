@@ -23,7 +23,7 @@ alias start-myovo-api="cd ~/dev/ovo/au-myovo-api && yarn && yarn start:dev"
 alias start-myovo-ui="cd ~/dev/ovo/myovo/projects/ui && yarn start:local"
 alias start-ios="cd ~/dev/ovo/myovo/projects/ui && yarn start:ios"
 # Start all
-alias start-local-dev="aws-login-uat && ttab start-payment-service && ttab start-promotions-service && ttab start-myovo-api && ttab start-myovo-ui"
+alias start-local-dev="aws-login-uat && ttab start-payment-service && ttab start-promotions-service && ttab start-myovo-api && ttab start-ios"
 # Update and start all
 alias update-and-start-local-dev="update-repos-for-local-dev && start-local-dev"
 
