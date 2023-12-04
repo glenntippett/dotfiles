@@ -181,6 +181,6 @@
   "sonarlint.connectedMode.connections.sonarcloud": [],
   "inline-parameters.enabled": true,
   "githubPullRequests.terminalLinksHandler": "github",
-  "workbench.colorTheme": "Ayu Mirage Bordered",
+  "workbench.colorTheme": "Field Lights",
   "editor.minimap.enabled": false
 }
