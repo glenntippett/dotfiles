@@ -1,7 +1,7 @@
 {
   "editor.fontFamily": "'Monaspace Argon', monospace, 'Source Code Pro'",
-  "editor.fontSize": 14,
-  "editor.lineHeight": 22,
+  "editor.fontSize": 16,
+  "editor.lineHeight": 23,
   "editor.cursorStyle": "line",
   "editor.fontLigatures": "'calt', 'liga', 'dlig', 'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08'",
   "editor.bracketPairColorization.enabled": true,
@@ -10,7 +10,7 @@
   "editor.suggest.preview": true,
   "editor.acceptSuggestionOnEnter": "on",
   "editor.snippetSuggestions": "top",
-  "editor.wordWrap": "on",
+  "editor.wordWrap": "wordWrapColumn",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "editor.inlineSuggest.enabled": true,
@@ -182,6 +182,7 @@
   "sonarlint.connectedMode.connections.sonarcloud": [],
   "inline-parameters.enabled": true,
   "githubPullRequests.terminalLinksHandler": "github",
-  "workbench.colorTheme": "Field Lights",
-  "editor.minimap.enabled": false
+  "workbench.colorTheme": "Ayu Mirage Bordered",
+  "editor.minimap.enabled": false,
+  "editor.wordWrapColumn": 120
 }
