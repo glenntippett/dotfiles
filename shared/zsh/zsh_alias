@@ -7,6 +7,7 @@ alias node-version-name="node -pe process.release.lts"
 # https://github.com/Everduin94/better-commits
 alias commit="better-commits"
 alias branch="better-branch"
+alias git-clean="git branch -vv | grep ': gone]' | grep -v '\*' | awk '{print $1}' | xargs -r git branch -D"
 
 # Vim
 alias nv="nvim"
