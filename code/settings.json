@@ -10,7 +10,7 @@
   "editor.suggest.preview": true,
   "editor.acceptSuggestionOnEnter": "on",
   "editor.snippetSuggestions": "top",
-  "editor.wordWrap": "wordWrapColumn",
+  "editor.wordWrap": "bounded",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "editor.inlineSuggest.enabled": true,
@@ -185,6 +185,7 @@
   "editor.wordWrapColumn": 120,
   "workbench.editor.enablePreview": false,
   "workbench.colorTheme": "Ayu Mirage Bordered",
+  "workbench.productIconTheme": "feather-vscode",
   "editor.minimap.enabled": false,
-  "workbench.productIconTheme": "feather-vscode"
+  "sonarlint.pathToNodeExecutable": "/usr/local/bin"
 }
