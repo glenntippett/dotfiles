@@ -28,8 +28,6 @@ autoload -U +X bashcompinit && bashcompinit
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
-source /opt/homebrew/opt/powerlevel10k/powerlevel10k.zsh-theme
-
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
@@ -56,3 +54,4 @@ source /opt/homebrew/opt/chruby/share/chruby/chruby.sh
 chruby ruby-3.2.2
 
 export PATH="/opt/homebrew/opt/openjdk@17/bin:$PATH"
+source /opt/homebrew/share/powerlevel10k/powerlevel10k.zsh-theme

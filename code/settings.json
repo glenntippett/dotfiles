@@ -186,6 +186,6 @@
   "workbench.editor.enablePreview": false,
   "workbench.colorTheme": "Ayu Mirage Bordered",
   "workbench.productIconTheme": "feather-vscode",
-  "editor.minimap.enabled": false,
-  "sonarlint.pathToNodeExecutable": "/usr/local/bin"
+  "sonarlint.pathToNodeExecutable": "/usr/local/bin",
+  "editor.minimap.enabled": false
 }
