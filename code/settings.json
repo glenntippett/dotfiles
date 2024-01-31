@@ -36,7 +36,7 @@
   "gitlens.hovers.currentLine.over": "line",
 
   "workbench.startupEditor": "none",
-  "workbench.preferredDarkColorTheme": "Default Dark+",
+  "workbench.preferredDarkColorTheme": "Ayu Mirage Bordered",
   "workbench.preferredLightColorTheme": "Default Light+",
   "workbench.editor.pinnedTabsOnSeparateRow": true,
 
@@ -184,8 +184,7 @@
   "githubPullRequests.terminalLinksHandler": "github",
   "editor.wordWrapColumn": 120,
   "workbench.editor.enablePreview": false,
-  "workbench.colorTheme": "Ayu Mirage Bordered",
+  "workbench.colorTheme": "Default Light+",
   "workbench.productIconTheme": "feather-vscode",
-  "sonarlint.pathToNodeExecutable": "/usr/local/bin",
-  "editor.minimap.enabled": false
+  "sonarlint.pathToNodeExecutable": "/usr/local/bin"
 }
