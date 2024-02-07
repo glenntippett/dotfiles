@@ -180,11 +180,11 @@
   "editor.largeFileOptimizations": true,
   "diffEditor.experimental.showMoves": true,
   "sonarlint.connectedMode.connections.sonarcloud": [],
-  "inline-parameters.enabled": true,
   "githubPullRequests.terminalLinksHandler": "github",
   "editor.wordWrapColumn": 120,
   "workbench.editor.enablePreview": false,
-  "workbench.colorTheme": "Default Light+",
+  "workbench.colorTheme": "Ayu Mirage Bordered",
   "workbench.productIconTheme": "feather-vscode",
-  "sonarlint.pathToNodeExecutable": "/usr/local/bin"
+  "sonarlint.pathToNodeExecutable": "~/.nvm/versions/node/v18.13.0/bin/node",
+  "editor.minimap.enabled": false
 }
