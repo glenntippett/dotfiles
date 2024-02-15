@@ -1,0 +1,62 @@
+#!/bin/bash
+
+# https://brew.sh/
+function install_homebrew() {
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+}
+
+function install_packages() {
+    brew upgrade git || brew install git
+    brew upgrade gh || brew install gh
+    brew upgrade wget || brew install wget
+    brew upgrade imagemagick || brew install imagemagick
+    brew upgrade jq || brew install jq
+    brew upgrade openssl || brew install openssl
+}
+
+# https://github.com/nvm-sh/nvm
+function install_nvm() {
+    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+}
+
+function install_yarn() {
+    npm install --global yarn
+}
+
+# https://www.typescriptlang.org/download
+function install_typescript() {
+    npm install -g typescript
+}
+
+function install_ohmyzsh() {
+    sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+}
+
+function install_vscode() {
+    brew install --cask visual-studio-code
+}
+
+function install_vscode_extensions() {
+    code --install-extension teabyii.ayu
+    code --install-extension dbaeumer.vscode-eslint
+    code --install-extension esbenp.prettier-vscode
+    code --install-extension paulshestakov.aws-step-functions-constructor
+    code --install-extension alexcvzz.vscode-sqlite
+    code --install-extension igorsbitnev.error-gutters
+    code --install-extension usernamehw.errorlens
+    code --install-extension github.vscode-pull-request-github
+    code --install-extension wix.vscode-import-cost
+    code --install-extension yoavbls.pretty-ts-errors
+    code --install-extension shopify.ruby-lsp
+    code --install-extension mbessey.vscode-rufo
+    code --install-extension sonarsource.sonarlint-vscode
+    code --install-extension meganrogge.template-string-converter
+    code --install-extension 0w0i0n0g0.twemoji-icon-theme
+    code --install-extension pflannery.vscode-versionlens
+    code --install-extension redhat.vscode-yaml
+}
+
+function login_github() {
+    gh auth login -s 'user:email' -w
+    gh auth status
+}

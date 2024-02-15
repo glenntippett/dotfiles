@@ -185,6 +185,5 @@
   "workbench.editor.enablePreview": false,
   "workbench.colorTheme": "Ayu Mirage Bordered",
   "workbench.productIconTheme": "feather-vscode",
-  "sonarlint.pathToNodeExecutable": "~/.nvm/versions/node/v18.13.0/bin/node",
-  "editor.minimap.enabled": false
+  "sonarlint.pathToNodeExecutable": "~/.nvm/versions/node/v18.13.0/bin/node"
 }
