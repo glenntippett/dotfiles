@@ -1,7 +1,7 @@
 {
-  "editor.fontFamily": "'Monaspace Argon', monospace, 'Source Code Pro'",
-  "editor.fontSize": 14,
-  "editor.lineHeight": 27,
+  "editor.fontFamily": "'Monaspace Neon', monospace, 'Source Code Pro'",
+  "editor.fontSize": 12,
+  "editor.lineHeight": 21,
   "editor.cursorStyle": "line",
   "editor.fontLigatures": "'calt', 'liga', 'dlig', 'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08'",
   "editor.bracketPairColorization.enabled": true,
@@ -185,6 +185,5 @@
   "workbench.editor.enablePreview": false,
   "workbench.productIconTheme": "feather-vscode",
   "sonarlint.pathToNodeExecutable": "/Users/glenntippett/.nvm/versions/node/v18.13.0/bin/node",
-  "workbench.colorTheme": "Ayu Mirage Bordered",
   "editor.minimap.enabled": false
 }
