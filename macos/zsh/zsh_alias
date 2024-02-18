@@ -51,3 +51,5 @@ alias restart="sudo shutdown -r now"
 alias darkmode="osascript -e 'tell app \"System Events\" to tell appearance preferences to set dark mode to not dark mode'"
 
 alias matrix="cmatrix"
+
+alias serve="ruby -run -e httpd . -p 8000"

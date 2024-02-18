@@ -37,8 +37,6 @@
   "gitlens.hovers.currentLine.over": "line",
 
   "workbench.startupEditor": "none",
-  "workbench.preferredDarkColorTheme": "Ayu Mirage Bordered",
-  "workbench.preferredLightColorTheme": "Default Light+",
   "workbench.editor.pinnedTabsOnSeparateRow": true,
 
   "typescript.tsserver.experimental.enableProjectDiagnostics": true,
