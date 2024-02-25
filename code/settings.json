@@ -37,8 +37,6 @@
   "gitlens.hovers.currentLine.over": "line",
 
   "workbench.startupEditor": "none",
-  "workbench.preferredDarkColorTheme": "Ayu Mirage Bordered",
-  "workbench.preferredLightColorTheme": "Default Light+",
   "workbench.editor.pinnedTabsOnSeparateRow": true,
 
   "typescript.tsserver.experimental.enableProjectDiagnostics": true,
@@ -161,6 +159,13 @@
   },
   "git.openRepositoryInParentFolders": "never",
   "workbench.iconTheme": "twemoji-icon-theme",
+  "[erb]": {
+    "editor.defaultFormatter": "aliariff.vscode-erb-beautify",
+    "editor.formatOnSave": true
+  },
+  "files.associations": {
+    "*.html.erb": "erb"
+  },
   "[ruby]": {
     "editor.defaultFormatter": "Shopify.ruby-lsp",
     "editor.formatOnSave": true,
@@ -169,7 +174,8 @@
     "editor.semanticHighlighting.enabled": true,
     "editor.formatOnType": true
   },
-  "rubyLsp.rubyVersionManager": "chruby",
+  "rubyLsp.formatter": "rubocop",
+  "rubyLsp.rubyVersionManager": "rbenv",
   "[html]": {
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "vscode.html-language-features"
