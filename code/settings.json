@@ -1,7 +1,7 @@
 {
   "editor.fontFamily": "'Monaspace Neon', monospace, 'Source Code Pro'",
-  "editor.fontSize": 12,
-  "editor.lineHeight": 21,
+  "editor.fontSize": 14,
+  "editor.lineHeight": 24,
   "editor.cursorStyle": "line",
   "editor.fontLigatures": "'calt', 'liga', 'dlig', 'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08'",
   "editor.bracketPairColorization.enabled": true,
@@ -18,7 +18,7 @@
   "editor.stickyScroll.enabled": true,
 
   "window.commandCenter": true,
-  "window.density.editorTabHeight": "compact",
+  "window.density.editorTabHeight": "default",
 
   "debug.toolBarLocation": "commandCenter",
 
@@ -159,6 +159,13 @@
   },
   "git.openRepositoryInParentFolders": "never",
   "workbench.iconTheme": "twemoji-icon-theme",
+  "[erb]": {
+    "editor.defaultFormatter": "aliariff.vscode-erb-beautify",
+    "editor.formatOnSave": true
+  },
+  "files.associations": {
+    "*.html.erb": "erb"
+  },
   "[ruby]": {
     "editor.defaultFormatter": "Shopify.ruby-lsp",
     "editor.formatOnSave": true,
@@ -167,7 +174,8 @@
     "editor.semanticHighlighting.enabled": true,
     "editor.formatOnType": true
   },
-  "rubyLsp.rubyVersionManager": "chruby",
+  "rubyLsp.formatter": "rubocop",
+  "rubyLsp.rubyVersionManager": "rbenv",
   "[html]": {
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "vscode.html-language-features"
@@ -183,6 +191,7 @@
   "editor.wordWrapColumn": 120,
   "workbench.editor.enablePreview": false,
   "workbench.productIconTheme": "feather-vscode",
-  "sonarlint.pathToNodeExecutable": "/Users/glenntippett/.nvm/versions/node/v18.13.0/bin/node",
+  "sonarlint.pathToNodeExecutable": "/Users/glenntippett/.nvm/versions/node/v16.15.1/bin/node",
+  "workbench.colorTheme": "Ayu Mirage Bordered",
   "editor.minimap.enabled": false
 }
