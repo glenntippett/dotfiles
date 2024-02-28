@@ -1,0 +1,17 @@
+#!/bin/sh
+
+### WIP
+
+FILE_PATH="$HOME/dotfiles/macos/zsh/.zshrc"
+# BACKUP="$FILE_PATH.bak"
+
+# # FYI can be shortened to: [ -e file_name ] && rm file_name
+# [ -e "$BACKUP" ] && rm "$BACKUP"
+
+# mv $FILE_PATH $BACKUP
+# touch $FILE_PATH
+
+
+
+sed -i.bak 's/ZSH_THEME=.*/ZSH_THEME="powerlevel10k/powerlevel10k\\\\"/' $FILE_PATH 
+

@@ -1,0 +1,1 @@
+/Users/glenntippett/.p10k.zsh

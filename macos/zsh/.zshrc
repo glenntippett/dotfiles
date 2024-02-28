@@ -7,7 +7,7 @@ source $DOTFILES_DIR/macos/environment.sh
 load_alias $DOTFILES_DIR/shared/zsh/zsh_alias
 load_alias $DOTFILES_DIR/macos/zsh/zsh_alias
 
-ZSH_THEME="af-magic"
+ZSH_THEME="powerlevel10k/powerlevel10k"
 plugins=(git zsh-autosuggestions web-search)
 
 source $ZSH/oh-my-zsh.sh
