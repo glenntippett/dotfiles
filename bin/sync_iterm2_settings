@@ -1,0 +1,19 @@
+#!/bin/sh
+
+FILE_NAME="Glenn.json"
+PROFILE_PATH="$HOME/Library/Application Support/iTerm2/DynamicProfiles/$FILE_NAME"
+DOTFILE_PATH="$HOME/dotfiles/iterm2/$FILE_NAME"
+
+# FYI can be shortened to: [ -e file_name ] && rm file_name
+if [ -e "$PROFILE_PATH" ]
+then
+echo "Found existing iterm2 profile: ${FILE_NAME} - removing..."
+rm "$PROFILE_PATH"
+else
+echo "No existing profile found"
+fi
+
+echo "Symlinking..."
+ln -s "$DOTFILE_PATH" "$PROFILE_PATH"
+
+echo "Done"
