@@ -155,6 +155,9 @@
     },
     "typescript:S6544": {
       "level": "on"
+    },
+    "typescript:S4157": {
+      "level": "on"
     }
   },
   "git.openRepositoryInParentFolders": "never",
