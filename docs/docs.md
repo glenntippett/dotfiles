@@ -9,6 +9,7 @@
 ```sh
 git pull upstream master -X ours
 ```
+
 [Explain Shell](https://explainshell.com/explain?cmd=git+pull+upstream+master+-X+ours)  
 [Git docs](https://git-scm.com/docs/merge-strategies)
 
@@ -22,23 +23,23 @@ postman.setEnvironmentVariable("access_token_name", jsonData.accessToken);
 or
 
 ```js
-pm.environment.set("access_token_name", pm.response.json().access_token)
+pm.environment.set("access_token_name", pm.response.json().access_token);
 ```
-
-
 
 ## Shell
 
-### Get aliases on different OS
+#### Get aliases on different OS
 
 https://www.cyberciti.biz/tips/bash-aliases-mac-centos-linux-unix.html
 
-### Get os name via uname ###
+#### Get os name via uname
+
 ```sh
 _myos="$(uname)"
 ```
- 
-### Add alias as per os using $_myos
+
+#### Add alias as per os using $\_myos
+
 ```sh
 case $_myos in
    Linux) alias foo='/path/to/linux/bin/foo';;
@@ -48,15 +49,25 @@ case $_myos in
 esac
 ```
 
-### How to Symlink 
+#### How to Symlink
 
 [sync-vscode-settings-and-snippets](https://pawelgrzybek.com/sync-vscode-settings-and-snippets-via-dotfiles-on-github/)
 
 1. Move original file to dotfiles location:
+
 ```sh
 mv settings.json ~/dotfiles/codium
 ```
+
 2. Link from dotfiles to original location
+
 ```sh
 ln -s ~/dotfiles/codium/settings.json /Users/glenntippett/Library/Application\ Support/VSCodium/User/settings.json
 ```
+
+#### Extensions/programs for bash scripting
+
+[shell formatter](https://github.com/mvdan/sh#shfmt)
+[shell formatter extension](https://marketplace.visualstudio.com/items?itemName=foxundermoon.shell-format)
+[shellcheck](https://github.com/vscode-shellcheck/vscode-shellcheck)
+[shellman - for snippets](https://marketplace.visualstudio.com/items?itemName=Remisa.shellman)

@@ -9,15 +9,12 @@ source $HOME/dotfiles/bin/init
 source $HOME/dotfiles/bin/load_alias
 source $HOME/dotfiles/zsh/nvm
 
-# Theme / Plugins / Oh My Zsh Framework
+# Theme -> Plugins -> Oh My Zsh
 ZSH_THEME="powerlevel10k/powerlevel10k"
-source $ZSH/oh-my-zsh.sh
-source $HOME/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-
 plugins=(git zsh-autosuggestions)
+source $ZSH/oh-my-zsh.sh
 
-load_alias $HOME/dotfiles/zsh/alias
-load_alias $HOME/dotfiles/ovo/zsh/alias
+source $HOME/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 autoload -U +X bashcompinit && bashcompinit
 
@@ -25,3 +22,6 @@ autoload -U +X bashcompinit && bashcompinit
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+load_alias $HOME/dotfiles/zsh/alias
+load_alias $HOME/dotfiles/ovo/zsh/alias

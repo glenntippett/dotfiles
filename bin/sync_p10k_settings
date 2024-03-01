@@ -5,12 +5,11 @@ FILE_PATH="$HOME/$FILE_NAME"
 DOTFILE_PATH="$HOME/dotfiles/zsh/$FILE_NAME"
 
 # FYI can be shortened to: [ -e file_name ] && rm file_name
-if [ -e "$DOTFILE_PATH" ]
-then
-echo "Found existing p10k in dotfiles: ${FILE_NAME} - removing..."
-rm "$DOTFILE_PATH"
+if [ -e "$DOTFILE_PATH" ]; then
+    echo "Found existing p10k in dotfiles: ${FILE_NAME} - removing..."
+    rm "$DOTFILE_PATH"
 else
-echo "No existing file found in dotfiles"
+    echo "No existing file found in dotfiles"
 fi
 
 echo "Symlinking..."

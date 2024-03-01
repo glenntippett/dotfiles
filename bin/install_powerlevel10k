@@ -11,7 +11,4 @@ FILE_PATH="$HOME/dotfiles/macos/zsh/.zshrc"
 # mv $FILE_PATH $BACKUP
 # touch $FILE_PATH
 
-
-
-sed -i.bak 's/ZSH_THEME=.*/ZSH_THEME="powerlevel10k/powerlevel10k\\\\"/' $FILE_PATH 
-
+sed -i.bak 's/ZSH_THEME=.*/ZSH_THEME="powerlevel10k/powerlevel10k\\\\"/' $FILE_PATH
