@@ -27,3 +27,6 @@ alias random-password='openssl rand -base64 256 | tr -d '\n' | cut -c 1-256'
 alias fd="fd-find"
 
 alias ff="fzf --exclude node_modules --height 100% --layout reverse --info inline --border --preview 'batcat --color=always {}' --preview-window right,1,border-horizontal --bind 'ctrl-/:change-preview-window(50%|hidden|)' | xargs code -n ."
+
+# Quickly serve the current directory as HTTP
+alias serve='ruby -run -e httpd . -p 8000' # Or python -m SimpleHTTPServer
