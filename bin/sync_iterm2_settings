@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 FILE_NAME="Glenn.json"
 PROFILE_PATH="$HOME/Library/Application Support/iTerm2/DynamicProfiles/$FILE_NAME"

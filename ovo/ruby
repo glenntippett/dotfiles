@@ -1,0 +1,4 @@
+#!/bin/sh
+
+source /opt/homebrew/opt/chruby/share/chruby/chruby.sh
+chruby ruby-3.2.2

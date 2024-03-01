@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
-echo "Saving VSCode extensions..."
+echo "Exporting VSCode extensions..."
 code --list-extensions > "$HOME"/dotfiles/code/extensions

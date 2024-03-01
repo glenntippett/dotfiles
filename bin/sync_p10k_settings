@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 FILE_NAME=".p10k.zsh"
 FILE_PATH="$HOME/$FILE_NAME"

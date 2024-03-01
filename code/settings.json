@@ -17,6 +17,8 @@
   "editor.showFoldingControls": "always",
   "editor.stickyScroll.enabled": true,
 
+  "jest.runMode": "on-demand",
+
   "window.commandCenter": true,
   "window.density.editorTabHeight": "default",
 
@@ -195,6 +197,5 @@
   "workbench.editor.enablePreview": false,
   "workbench.productIconTheme": "feather-vscode",
   "sonarlint.pathToNodeExecutable": "/Users/glenntippett/.nvm/versions/node/v18.13.0/bin/node",
-  "editor.minimap.enabled": false,
   "workbench.colorTheme": "Ayu Mirage Bordered"
 }
