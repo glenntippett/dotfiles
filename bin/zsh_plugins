@@ -1,0 +1,13 @@
+#!/bin/bash
+
+CURRENT_DIR=$(pwd)
+ZSH_PLUGINS_DIR="$HOME/.oh-my-zsh/custom/plugins"
+mkdir -p "$ZSH_PLUGINS_DIR" && cd "$ZSH_PLUGINS_DIR"
+if [ ! -d "$ZSH_PLUGINS_DIR/zsh-syntax-highlighting" ]; then
+    echo "-----> Installing zsh plugin 'zsh-syntax-highlighting'..."
+    gh repo clone zsh-users/zsh-syntax-highlighting
+fi
+if [ ! -d "$ZSH_PLUGINS_DIR/zsh-history-substring-search" ]; then
+    echo "-----> Installing zsh plugin 'zsh-history-substring-search'..."
+    gh repo clone zsh-users/zsh-history-substring-search
+fi

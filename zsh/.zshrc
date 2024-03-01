@@ -6,15 +6,13 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
 fi
 
 source $HOME/dotfiles/bin/init
-source $HOME/dotfiles/bin/load_alias
+source $HOME/dotfiles/bin/functions/*
 source $HOME/dotfiles/zsh/nvm
 
 # Theme -> Plugins -> Oh My Zsh
 ZSH_THEME="powerlevel10k/powerlevel10k"
-plugins=(git zsh-autosuggestions)
+plugins=(git zsh-autosuggestions zsh-interactive-cd zsh-syntax-highlighting zsh-history-substring-search)
 source $ZSH/oh-my-zsh.sh
-
-source $HOME/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 autoload -U +X bashcompinit && bashcompinit
 
