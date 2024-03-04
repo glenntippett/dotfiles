@@ -28,17 +28,21 @@ pm.environment.set("access_token_name", pm.response.json().access_token);
 
 ## Shell
 
+#### FYI:
+
+Add scripts to `/usr/local/bin/` to run from anywhere
+
 #### Get aliases on different OS
 
 https://www.cyberciti.biz/tips/bash-aliases-mac-centos-linux-unix.html
 
-#### Get os name via uname
+### Get os name via uname
 
 ```sh
 _myos="$(uname)"
 ```
 
-#### Add alias as per os using $\_myos
+### Add alias as per os using $\_myos
 
 ```sh
 case $_myos in
@@ -49,7 +53,7 @@ case $_myos in
 esac
 ```
 
-#### How to Symlink
+### How to Symlink
 
 [sync-vscode-settings-and-snippets](https://pawelgrzybek.com/sync-vscode-settings-and-snippets-via-dotfiles-on-github/)
 
