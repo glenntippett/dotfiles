@@ -1,12 +1,6 @@
 #!/bin/bash
 
-alias edit-zsh="code -n $DOTFILES_DIR/macos/zsh/.zshrc"
-alias source-zsh="source $DOTFILES_DIR/macos/zsh/.zshrc"
-
 alias stash-for-later="git stash save -u 'WIP: Stashed for later'"
-
-alias view-repo="gh repo view --web"
-alias view-pr="gh pr view --web"
 
 # AWS
 alias aws-login-uat="aws sso login --profile ovoenergy-terraformer-uat"
@@ -33,8 +27,8 @@ alias start-local-dev="aws-login-uat && ttab start-payment-service && ttab start
 alias update-and-start-local-dev="update-repos-for-local-dev && start-local-dev"
 
 # Releases
-alias bump-version="sh ../au-admin-scripts/scripts/release/bump_version_pr.sh"
-alias release-project="sh ../au-admin-scripts/scripts/release/release_project.sh"
+alias bump-version="sh ~/dev/ovo/au-admin-scripts/scripts/release/bump_version_pr.sh"
+alias release-project="sh ~/dev/ovo/au-admin-scripts/scripts/release/release_project.sh"
 
 # Day-to-days
 alias play="code -n ~/dev/testing/typescript-playground"
@@ -44,12 +38,3 @@ alias start-day="slack && brew update && brew upgrade && update-repos-for-local-
 # Kaluza API
 alias apollo-prod="cd ~/dev/ovo/ && open graphql-sandbox-prod.html -a 'Google Chrome.app'"
 alias apollo-uat="cd ~/dev/ovo/ && open graphql-sandbox.html -a 'Google Chrome.app'"
-
-alias slack="export SLACK_DEVELOPER_MENU=true && open -a /Applications/Slack.app"
-
-alias restart="sudo shutdown -r now"
-
-# Toggle darkmode on/off
-alias darkmode="osascript -e 'tell app \"System Events\" to tell appearance preferences to set dark mode to not dark mode'"
-
-alias matrix="cmatrix"
