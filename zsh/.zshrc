@@ -22,4 +22,8 @@ autoload -U +X bashcompinit && bashcompinit
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 load_alias $HOME/dotfiles/zsh/alias
-load_alias $HOME/dotfiles/ovo/zsh/alias
+
+# Work computer
+if [[ $(hostname) == "Glenns-MacBook-Pro.local" ]]; then
+  load_alias $HOME/dotfiles/ovo/zsh/alias
+fi
