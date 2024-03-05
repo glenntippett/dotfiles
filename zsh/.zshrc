@@ -21,9 +21,10 @@ autoload -U +X bashcompinit && bashcompinit
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-load_alias $HOME/dotfiles/zsh/alias
+load_alias $HOME/dotfiles/zsh/aliases
 
 # Work computer
 if [[ $(hostname) == "Glenns-MacBook-Pro.local" ]]; then
-  load_alias $HOME/dotfiles/ovo/zsh/alias
+  source $HOME/dotfiles/ovo/init
+  load_alias $HOME/dotfiles/ovo/zsh/aliases
 fi

@@ -1,3 +1,5 @@
+#!/bin/bash
+
 alias edit-zsh="code -n $DOTFILES_DIR/macos/zsh/.zshrc"
 alias source-zsh="source $DOTFILES_DIR/macos/zsh/.zshrc"
 

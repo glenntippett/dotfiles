@@ -12,8 +12,3 @@ export PATH=$HOME/.gem/ruby/3.2.0/bin:$PATH
 
 # OpenJDK
 export PATH="/opt/homebrew/opt/openjdk@17/bin:$PATH"
-
-# OVO
-export SDKMAN_DIR="$HOME/.sdkman"
-export AWS_DEFAULT_REGION=ap-southeast-2
-export AWS_REGION=ap-southeast-2
