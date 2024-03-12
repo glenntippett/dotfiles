@@ -16,6 +16,12 @@
   "editor.inlineSuggest.enabled": true,
   "editor.showFoldingControls": "always",
   "editor.stickyScroll.enabled": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.stylelint": "always"
+  },
+
+  "stylelint.validate": ["css", "scss"],
+  "stylelint.enable": true,
 
   "jest.runMode": {
     "type": "on-demand"
@@ -99,8 +105,17 @@
     "**/.metals": true,
     "**/.ammonite": true
   },
+  "terraform.experimentalFeatures.prefillRequiredFields": true,
+  "terraform.experimentalFeatures.validateOnSave": true,
   "[terraform]": {
-    "editor.defaultFormatter": "hashicorp.terraform"
+    "editor.defaultFormatter": "hashicorp.terraform",
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "file"
+  },
+  "[terraform-vars]": {
+    "editor.defaultFormatter": "hashicorp.terraform",
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "file"
   },
   "githubPullRequests.pullBranch": "never",
   "git.suggestSmartCommit": false,
@@ -176,7 +191,9 @@
     "editor.formatOnSave": true
   },
   "files.associations": {
-    "*.html.erb": "erb"
+    "*.html.erb": "erb",
+    "*.env.development": "env",
+    "*.env.production": "env"
   },
   "[ruby]": {
     "editor.defaultFormatter": "Shopify.ruby-lsp",
@@ -204,5 +221,6 @@
   "workbench.editor.enablePreview": false,
   "workbench.productIconTheme": "feather-vscode",
   "sonarlint.pathToNodeExecutable": "/Users/glenntippett/.nvm/versions/node/v18.13.0/bin/node",
-  "workbench.colorTheme": "Ayu Mirage Bordered"
+  "workbench.colorTheme": "Ayu Mirage Bordered",
+  "editor.minimap.enabled": false
 }
