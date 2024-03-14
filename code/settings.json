@@ -23,10 +23,6 @@
   "stylelint.validate": ["css", "scss"],
   "stylelint.enable": true,
 
-  "jest.runMode": {
-    "type": "on-demand"
-  },
-
   "window.commandCenter": true,
   "window.density.editorTabHeight": "default",
 
@@ -204,7 +200,6 @@
     "editor.formatOnType": true
   },
   "rubyLsp.formatter": "rubocop",
-  "rubyLsp.rubyVersionManager": "rbenv",
   "[html]": {
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "vscode.html-language-features"
@@ -221,5 +216,5 @@
   "workbench.editor.enablePreview": false,
   "workbench.productIconTheme": "feather-vscode",
   "sonarlint.pathToNodeExecutable": "/Users/glenntippett/.nvm/versions/node/v18.13.0/bin/node",
-  "workbench.colorTheme": "Ayu Mirage Bordered"
+  "workbench.colorTheme": "Ayu Dark Bordered"
 }
