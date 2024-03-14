@@ -6,6 +6,9 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
 fi
 
 source $HOME/dotfiles/bin/init
+# TODO - fix this for different machines
+export PATH=$HOME/.gem/ruby/3.2.0/bin:$PATH
+
 source $HOME/dotfiles/bin/functions/*
 source $HOME/dotfiles/zsh/nvm
 
@@ -26,5 +29,4 @@ load_alias $HOME/dotfiles/zsh/aliases
 # Work computer
 if [[ $(hostname) == "Glenns-MacBook-Pro.local" ]]; then
   source $HOME/dotfiles/ovo/init
-  load_alias $HOME/dotfiles/ovo/zsh/aliases
 fi
