@@ -1,8 +1,0 @@
-alias edit-zsh="code -n $DOTFILES_DIR/ubuntu/zsh/.zshrc"
-alias source-zsh="source $DOTFILES_DIR/ubuntu/zsh/.zshrc"
-
-alias bat="batcat"
-
-# Quickly serve the current directory as HTTP
-# alias serve='ruby -run -e httpd . -p 8000' # Or 
-alias serve='python3 -m http.server 8000'

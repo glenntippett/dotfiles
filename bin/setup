@@ -63,8 +63,3 @@ function install_vscode_extensions() {
     code --install-extension pflannery.vscode-versionlens
     code --install-extension redhat.vscode-yaml
 }
-
-function login_github() {
-    gh auth login -s 'user:email' -w
-    gh auth status
-}

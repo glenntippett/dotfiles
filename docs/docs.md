@@ -1,3 +1,8 @@
+## Zsh
+
+Aliases are added to `~/.oh-my-zsh/custom/alias.zsh`
+PATHs can be added to `~/.zprofile` if required to be loaded each time
+
 ## Git
 
 ### Add remote with gh cli
