@@ -13,5 +13,6 @@
           && git remote prune origin
 [core]
     excludesfile = ~/.gitignore_global # create this file and add ignored directories to it
+	editor = vim
 [commit]
 	template = ~/.gitmessage.txt
