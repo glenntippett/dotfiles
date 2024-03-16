@@ -14,6 +14,10 @@ function install_packages() {
     brew upgrade openssl || brew install openssl
 }
 
+function install_chrome() {
+    brew install --cask google-chrome
+}
+
 # https://github.com/nvm-sh/nvm
 function install_nvm() {
     curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
@@ -34,6 +38,10 @@ function install_ohmyzsh() {
 
 function install_vscode() {
     brew install --cask visual-studio-code
+}
+
+function install_iterm2() {
+    brew install --cask iterm2
 }
 
 function install_vscode_extensions() {
