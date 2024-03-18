@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 
 function load_file() {
     if [ -f $1 ]; then

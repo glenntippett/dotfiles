@@ -4,6 +4,5 @@ export SDKMAN_DIR="$HOME/.sdkman"
 export AWS_DEFAULT_REGION=ap-southeast-2
 export AWS_REGION=ap-southeast-2
 
-source $DOTFILES/ovo/ruby.zsh
-
+load_file $DOTFILES/ovo/ruby.zsh
 load_file $DOTFILES/ovo/alias.zsh

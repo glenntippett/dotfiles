@@ -55,14 +55,11 @@ plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
+######################
 # User configuration
+######################
 
 source $DOTFILES/bin/helpers/*
-
-# Work computer
-if [[ $(hostname) == "Glenns-MacBook-Pro.local" ]]; then
-  source $DOTFILES/ovo/init
-fi
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
@@ -79,8 +76,16 @@ fi
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
+# Work computer
+if [[ $(hostname) == "Glenns-MacBook-Pro.local" ]]; then
+  load_file $DOTFILES/ovo/init
+fi
+
+# Personal computer
+if [[ $(hostname) == "Glenns-MacBook-Air.local" ]]; then
+  load_file $DOTFILES/ruby/init
+fi
+
 # Other plugins
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-
-eval "$(rbenv init -)"

@@ -7,6 +7,7 @@ dbaeumer.vscode-eslint
 digitalbrainstem.javascript-ejs-support
 eamodio.gitlens
 esbenp.prettier-vscode
+expo.vscode-expo-tools
 foxundermoon.shell-format
 github.vscode-pull-request-github
 graphql.vscode-graphql
@@ -15,6 +16,7 @@ graphql.vscode-graphql-syntax
 hashicorp.terraform
 hridoy.rails-snippets
 igorsbitnev.error-gutters
+irongeek.vscode-env
 kamikillerto.vscode-colorize
 kisstkondoros.vscode-codemetrics
 mechatroner.rainbow-csv
@@ -26,10 +28,10 @@ ms-python.debugpy
 ms-python.isort
 ms-python.python
 ms-python.vscode-pylance
-orta.vscode-jest
+ms-vsliveshare.vsliveshare
+msjsdiag.vscode-react-native
 paulshestakov.aws-step-functions-constructor
 pflannery.vscode-versionlens
-pkief.material-icon-theme
 rayhanw.erb-helpers
 redhat.java
 redhat.vscode-yaml
@@ -42,7 +44,6 @@ skellock.just
 sonarsource.sonarlint-vscode
 styled-components.vscode-styled-components
 teabyii.ayu
-tomoki1207.pdf
 unifiedjs.vscode-mdx
 usernamehw.errorlens
 vincaslt.highlight-matching-tag
