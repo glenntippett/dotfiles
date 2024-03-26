@@ -1,7 +1,7 @@
 {
-  "editor.fontFamily": "'Monaspace Neon', 'Source Code Pro', monospace",
+  "editor.fontFamily": "'IBM Plex Mono', 'Monaspace Neon', 'Source Code Pro', monospace",
   "editor.fontSize": 14,
-  "editor.lineHeight": 26,
+  "editor.lineHeight": 24,
   "editor.cursorStyle": "line",
   "editor.fontLigatures": "'calt', 'liga', 'dlig', 'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08'",
   "editor.bracketPairColorization.enabled": true,
@@ -212,6 +212,6 @@
   "editor.wordWrapColumn": 120,
   "workbench.editor.enablePreview": false,
   "workbench.productIconTheme": "feather-vscode",
-  "sonarlint.pathToNodeExecutable": "/Users/glenntippett/.nvm/versions/node/v18.13.0/bin/node",
-  "workbench.colorTheme": "Ayu Mirage Bordered"
+  "sonarlint.pathToNodeExecutable": "/Users/glenntippett/.nvm/versions/node/v20.0.0/bin/node",
+  "workbench.colorTheme": "Nord Deep"
 }
