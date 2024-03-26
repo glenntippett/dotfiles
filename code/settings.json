@@ -1,5 +1,5 @@
 {
-  "editor.fontFamily": "'IBM Plex Mono', 'Monaspace Neon', 'Source Code Pro', monospace",
+  "editor.fontFamily": "'IBM Plex Mono', 'Monaspace Neon', monospace",
   "editor.fontSize": 14,
   "editor.lineHeight": 24,
   "editor.cursorStyle": "line",
