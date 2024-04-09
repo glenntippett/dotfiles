@@ -196,7 +196,6 @@
     "editor.semanticHighlighting.enabled": true,
     "editor.formatOnType": true
   },
-  "rubyLsp.formatter": "rubocop",
   "[html]": {
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "vscode.html-language-features"
