@@ -10,10 +10,9 @@ alias aws-login-uat="aws sso login --profile ovoenergy-terraformer-uat"
 # Update local repos
 alias update-payment-service="cd ~/dev/ovo/payment-service && stash-for-later && gco main && git pull && cd ~/dev/ovo/payment-service/api && yarn install"
 alias update-promotions-service="cd ~/dev/ovo/promotions-service && stash-for-later && gco main && git pull && cd ~/dev/ovo/promotions-service/node && yarn install"
-alias update-myovo-api="cd ~/dev/ovo/myovo/projects/api/server && stash-for-later && gco main && git pull && yarn install"
-alias update-myovo-ui="cd ~/dev/ovo/myovo && stash-for-later && gco main && git pull && ~/dev/ovo/myovo/projects/ui && yarn install && yarn build:mobile"
+alias update-myovo="cd ~/dev/ovo/myovo && stash-for-later && gco main && git pull && ~/dev/ovo/myovo/projects/api/server && yarn install && ~/dev/ovo/myovo/projects/ui && yarn install && yarn build:mobile"
 # Update all
-alias update-repos-for-local-dev="update-payment-service && update-promotions-service && update-myovo-api && update-myovo-ui && cd ~"
+alias update-repos-for-local-dev="update-payment-service && update-promotions-service && update-myovo && cd ~"
 
 # Start local environments
 alias start-payment-service="cd ~/dev/ovo/payment-service/api && yarn start:dev"
