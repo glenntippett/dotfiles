@@ -212,5 +212,9 @@
   "workbench.editor.enablePreview": false,
   "workbench.productIconTheme": "feather-vscode",
   "sonarlint.pathToNodeExecutable": "/Users/glenntippett/.nvm/versions/node/v20.0.0/bin/node",
-  "workbench.colorTheme": "Ayu Mirage Bordered"
+  "workbench.colorTheme": "Ayu Mirage Bordered",
+  "editor.minimap.enabled": false,
+  "[ignore]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  }
 }
