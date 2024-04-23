@@ -1,5 +1,5 @@
 {
-  "editor.fontFamily": "'IBM Plex Mono', 'Monaspace Neon', monospace",
+  "editor.fontFamily": "'Monaspace Neon', 'IBM Plex Mono', monospace",
   "editor.fontSize": 14,
   "editor.lineHeight": 24,
   "editor.cursorStyle": "line",
@@ -213,7 +213,6 @@
   "workbench.productIconTheme": "feather-vscode",
   "sonarlint.pathToNodeExecutable": "/Users/glenntippett/.nvm/versions/node/v20.0.0/bin/node",
   "workbench.colorTheme": "Ayu Mirage Bordered",
-  "editor.minimap.enabled": false,
   "[ignore]": {
     "editor.defaultFormatter": "foxundermoon.shell-format"
   }

@@ -1,5 +1,7 @@
 alias cl="clear"
 
+alias myip="curl https://ipinfo.io/json" # or /ip for plain-text ip
+
 alias my-prs="gh search prs --author=@me --state 'open'"
 alias prs-to-review="gh search prs --review-requested=@me --state 'open'"
 alias repov="gh repo view --web"
