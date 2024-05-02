@@ -86,6 +86,8 @@ if [[ $(hostname) == "Glenns-MacBook-Air.local" ]]; then
   load_file $DOTFILES/ruby/init
 fi
 
+source $DOTFILES/node/load_node_version
+
 # Other plugins
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
