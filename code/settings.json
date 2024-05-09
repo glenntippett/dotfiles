@@ -37,7 +37,7 @@
 
   "terminal.integrated.cursorStyle": "block",
   "terminal.integrated.cursorBlinking": true,
-  "terminal.integrated.fontFamily": "JetBrains Mono",
+  "terminal.integrated.fontFamily": "JetBrains Mono NL",
   "terminal.integrated.fontSize": 14,
   "terminal.integrated.stickyScroll.enabled": true,
 
