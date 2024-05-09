@@ -19,7 +19,7 @@ alias start-payment-service="cd ~/dev/ovo/payment-service/api && yarn start:dev"
 alias start-promotions-service="cd ~/dev/ovo/promotions-service && cd node && yarn start:dev"
 alias start-myovo-api="cd ~/dev/ovo/myovo/projects/api/server && yarn start:dev"
 alias start-myovo-ui="cd ~/dev/ovo/myovo/projects/ui && yarn start:local"
-alias start-ios="cd ~/dev/ovo/myovo/projects/ui && yarn start:ios"
+alias start-ios="cd ~/dev/ovo/myovo/projects/ui && yarn build:mobile && yarn start:ios"
 # Start all
 alias start-local-dev="aws-login-uat && ttab start-payment-service && ttab start-promotions-service && ttab start-myovo-api && ttab start-ios"
 # Update and start all

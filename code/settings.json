@@ -1,9 +1,9 @@
 {
-  "editor.fontFamily": "'Monaspace Neon', 'IBM Plex Mono', monospace",
+  "editor.fontFamily": "'JetBrains Mono', 'IBM Plex Mono', monospace",
   "editor.fontSize": 14,
   "editor.lineHeight": 24,
   "editor.cursorStyle": "block",
-  "editor.fontLigatures": "'calt', 'liga', 'dlig', 'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08'",
+  "editor.fontLigatures": true,
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": "active",
   "editor.suggest.showMethods": true,
@@ -37,7 +37,7 @@
 
   "terminal.integrated.cursorStyle": "block",
   "terminal.integrated.cursorBlinking": true,
-  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "terminal.integrated.fontFamily": "JetBrains Mono",
   "terminal.integrated.fontSize": 14,
   "terminal.integrated.stickyScroll.enabled": true,
 
@@ -215,5 +215,7 @@
   "[ignore]": {
     "editor.defaultFormatter": "foxundermoon.shell-format"
   },
-  "workbench.colorTheme": "Ayu Mirage Bordered"
+  "[c]": {
+    "editor.defaultFormatter": "xaver.clang-format"
+  }
 }
