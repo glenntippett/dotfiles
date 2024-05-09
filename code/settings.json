@@ -218,5 +218,5 @@
   "[c]": {
     "editor.defaultFormatter": "xaver.clang-format"
   },
-  "workbench.colorTheme": "Vesper ++"
+  "workbench.colorTheme": "Vesper"
 }
