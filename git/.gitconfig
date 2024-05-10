@@ -16,3 +16,5 @@
 	editor = vim
 [commit]
 	template = ~/.gitmessage.txt
+[push]
+	autoSetupRemote = true
