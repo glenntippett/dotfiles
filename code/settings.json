@@ -1,7 +1,8 @@
 {
   "editor.fontFamily": "'JetBrains Mono', 'IBM Plex Mono', monospace",
   "editor.fontSize": 14,
-  "editor.lineHeight": 24,
+  "editor.lineHeight": 1.7,
+  "editor.semanticHighlighting.enabled": true,
   "editor.cursorStyle": "block",
   "editor.fontLigatures": true,
   "editor.bracketPairColorization.enabled": true,
@@ -218,5 +219,5 @@
   "[c]": {
     "editor.defaultFormatter": "xaver.clang-format"
   },
-  "workbench.colorTheme": "Vesper ++"
+  "workbench.colorTheme": "Magic Sky Theme"
 }
