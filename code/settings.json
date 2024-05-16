@@ -2,7 +2,7 @@
   "editor.fontFamily": "'JetBrains Mono', 'IBM Plex Mono', monospace",
   "editor.fontSize": 14,
   "editor.lineHeight": 1.7,
-  "editor.semanticHighlighting.enabled": true,
+  "editor.semanticHighlighting.enabled": false,
   "editor.cursorStyle": "block",
   "editor.fontLigatures": true,
   "editor.bracketPairColorization.enabled": true,
@@ -212,12 +212,12 @@
   "editor.wordWrapColumn": 120,
   "workbench.editor.enablePreview": false,
   "workbench.productIconTheme": "feather-vscode",
-  "sonarlint.pathToNodeExecutable": "/Users/glenntippett/.nvm/versions/node/v21.7.1/bin/node",
+  "sonarlint.pathToNodeExecutable": "/Users/glenntippett/.nvm/versions/node/v20.9.0/bin/node",
   "[ignore]": {
     "editor.defaultFormatter": "foxundermoon.shell-format"
   },
   "[c]": {
     "editor.defaultFormatter": "xaver.clang-format"
   },
-  "workbench.colorTheme": "Magic Sky Theme"
+  "workbench.colorTheme": "Ayu Mirage Bordered"
 }
