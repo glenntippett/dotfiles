@@ -1,0 +1,2 @@
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/liberica-jdk-21.jdk/Contents/Home
+export PATH=$PATH:/opt/apache-maven-3.9.6/bin

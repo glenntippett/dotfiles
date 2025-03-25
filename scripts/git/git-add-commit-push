@@ -1,0 +1,10 @@
+#!/bin/zsh
+
+function git_add_commit_push() {
+    git add .
+    git commit -m "$1"
+    git push
+}
+
+git_add_commit_push $1
+
