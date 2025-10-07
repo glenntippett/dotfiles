@@ -1,0 +1,32 @@
+[core]
+	name = Glenn Tippett
+	excludesfile = ~/.gitignore_global																																																					# create this file and add ignored directories to it
+	editor = nvim
+[init]
+	defaultBranch = main
+[user]
+	name = Glenn Tippett
+	email = 48549970+glenntippett@users.noreply.github.com
+[credential]
+	helper = store
+[pull]
+	ff = false
+	rebase = true
+[alias]
+	s = "status"
+	a = "add"
+	c = "commit"
+	co = checkout
+	d = "!git ls-files --modified --other --exclude-standard | sort -u | fzf -0 --multi --preview 'git diff --color {}' | xargs -r $EDITOR -p"	# Show modified files in fzf and open them in editor
+	squash-all = "!f(){ git reset $(git commit-tree \"HEAD^{tree}\" \"$@\");};f"																																# git squash-all -m "a brand new start"
+	l = log --oneline
+	sweep = !git branch --merged main | grep -v 'main$' | xargs git branch -d && git remote prune origin
+[commit]
+	template = ~/.gitmessage.txt
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[push]
+	autoSetupRemote = true

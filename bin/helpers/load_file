@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+# Load a file if it exists, otherwise print an error message.
+# Usage: load_file <filename>
+
+function load_file() {
+    if [ -f $1 ]; then
+        source $1
+    else
+        print "404: $1 not found."
+    fi
+}

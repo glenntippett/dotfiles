@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+# This script runs RSpec tests for a Rails application.
+# Usage: ./test-rails [SPEC_FILE]
+# eg: ./test-rails spec/models/user_spec.rb
+# Include line number for specific test: ./test-rails spec/models/user_spec.rb:42
+
+function test-rails() {
+	bundle exec rspec $1 --format documentation
+}
+
+test-rails $1
+

@@ -1,0 +1,7 @@
+type - build: chore: ci: docs: feat: fix: perf: refactor: revert: style: test:
+use ! for breaking change
+<type>[optional scope]: <description>
+
+[optional body]
+
+[optional footer(s)] eg, [Ticket: X]

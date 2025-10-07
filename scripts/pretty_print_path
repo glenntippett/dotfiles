@@ -1,0 +1,4 @@
+#!/bin/zsh
+
+# This script pretty prints the PATH variable by replacing colons with newlines.
+echo -e ${PATH//:/\\n}

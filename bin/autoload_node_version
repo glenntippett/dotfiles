@@ -1,0 +1,71 @@
+#!/bin/zsh
+
+# -f is used to check for the existence and type of a file.
+# -n is used to check if a string is non-empty.
+
+autoload -U add-zsh-hook
+
+load_from_package_json() {
+    echo "Found package.json..."
+    # Extract the node version from engines using jq
+    node_version=$(jq -r '.engines.node // empty' package.json)
+
+    if [[ -n "$node_version" ]]; then
+        echo "Node version specified in engines: $node_version"
+
+        # Remove .x suffix if present and handle >= version
+        if [[ "$node_version" == *".x" ]]; then
+            node_version=${node_version/.x/}
+
+            # Check if the specified node version is already installed
+            installed_node_version=$(nvm version "$node_version")
+            if [[ "$installed_node_version" = "N/A" ]]; then
+                echo "Installing Node version $node_version"
+                nvm install "$node_version"
+            fi
+            nvm use "$node_version"
+        elif [[ "$node_version" == *">="* ]]; then
+            nvm use --lts
+        fi
+    else
+        nvm use --lts
+    fi
+}
+
+load_from_nvmrc() {
+    echo "Found .nvmrc..."
+    local node_version="$(nvm version)"
+    local nvmrc_path="$(nvm_find_nvmrc)"
+    local nvmrc_node_version=$(nvm version "$(cat "${nvmrc_path}")")
+
+    if [ "$nvmrc_node_version" = "N/A" ]; then
+        echo "Installing Node version $node_version"
+        nvm install
+    elif [ "$nvmrc_node_version" != "$node_version" ]; then
+        nvm use
+    fi
+}
+
+load_node_lts() {
+    echo "Reverting to latest LTS"
+    nvm use --lts
+}
+
+load_node_version() {
+    local latest_lts="v20.17.0" # TODO: get this dynamically
+    local node_version="$(nvm version)"
+    local nvmrc_path="$(nvm_find_nvmrc)"
+
+    if [[ -f package.json ]]; then
+        load_from_package_json
+    elif [ -n "$nvmrc_path" ]; then
+        load_from_nvmrc
+    else
+        if [ "$node_version" != "$latest_lts" ]; then
+            load_node_lts
+        fi
+    fi
+}
+
+# add-zsh-hook chpwd load_node_version
+# load_node_version
