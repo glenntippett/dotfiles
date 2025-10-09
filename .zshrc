@@ -212,11 +212,13 @@ alias matrix="cmatrix"     # brew install cmatrix
 
 # ~~~~~ Specific computer setups ~~~~~
 
-# Work
-if [[ $(hostname) == "AMS-MAC-037-c.local" ]]; then
+if [[ $(hostname) == "Glenns-MacBook-Air.local" ]]; then
+	return
+# work
+elif [[ $(hostname) == "AMS-MAC-037-c.local" ]]; then
 	load_file $XDG_CONFIG_HOME/computer-setup/init
 else
-  echo -e "${YELLOW}Work computer hostname did not match, load work config?"
+  echo -e "${YELLOW} Hostname not found, load work config?"
 	read -r load_work_config
 
 	if [[ $load_work_config == "y" || $load_work_config == "Y" ]]; then
