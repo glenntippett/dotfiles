@@ -202,7 +202,7 @@ alias lg="lazygit"
 alias myip="curl https://ipinfo.io/json"                                     # or /ip for plain-text ip - Print IP information
 alias random-password='openssl rand -base64 256 | tr -d '\n' | cut -c 1-256' # Generate a random password of 256 characters
 # Quickly serve the current directory as HTTP
-alias serve='ruby -run -e httpd . -p 8000' # Or python -m SimpleHTTPServer
+alias serve='ruby -run -e httpd . -p 8001' # Or python -m SimpleHTTPServer
 # Toggle darkmode on/off (Mac)
 alias darkmode="osascript -e 'tell app \"System Events\" to tell appearance preferences to set dark mode to not dark mode'"
 # Open Slack in developer mode

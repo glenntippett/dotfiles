@@ -20,5 +20,6 @@ return {
   { "shaunsingh/nord.nvim" },
   { "marko-cerovac/material.nvim" },
   { "doom-neovim/doom-nvim" },
-  { "Shatur/neovim-ayu" },
+  -- { "Shatur/neovim-ayu" },
+  { "ayu-theme/ayu-vim" },
 }

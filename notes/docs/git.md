@@ -35,3 +35,9 @@ Release latest tag:
 ```zsh
 gh release create {{tag}} --generate-notes --draft
 ```
+
+Delete all local branches except master/main
+
+```zsh
+git branch | grep -v "main" | xargs git branch -D
+```
