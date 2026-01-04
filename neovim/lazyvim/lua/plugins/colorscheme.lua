@@ -20,6 +20,9 @@ return {
   { "shaunsingh/nord.nvim" },
   { "marko-cerovac/material.nvim" },
   { "doom-neovim/doom-nvim" },
-  -- { "Shatur/neovim-ayu" },
-  { "ayu-theme/ayu-vim" },
+  { "Shatur/neovim-ayu" },
+  { "olivercederborg/poimandres.nvim" },
+  { "wtfox/jellybeans.nvim" },
+  { "EdenEast/nightfox.nvim" },
+  { "Mofiqul/vscode.nvim" },
 }

@@ -15,6 +15,8 @@ if [ -d "$HOME/bin" ]; then
 	export PATH="$HOME/bin:$PATH"
 fi
 
+export PATH="$HOME/.local/bin:$PATH"
+
 # ~~~~~ Homebrew ~~~~~
 
 if [ ! -x /opt/homebrew/bin/brew ]; then
@@ -226,3 +228,6 @@ else
   fi
 fi
 
+
+# Added by Antigravity
+export PATH="/Users/glenntippett/.antigravity/antigravity/bin:$PATH"
