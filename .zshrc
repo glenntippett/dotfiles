@@ -228,6 +228,3 @@ else
   fi
 fi
 
-
-# Added by Antigravity
-export PATH="/Users/glenntippett/.antigravity/antigravity/bin:$PATH"
