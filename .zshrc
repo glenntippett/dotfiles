@@ -201,16 +201,15 @@ alias scripts="bat package.json | jq -r '.scripts | to_entries[] | \"\(.key): \(
 alias lg="lazygit"
 
 # Other random things
-alias myip="curl https://ipinfo.io/json"                                     # or /ip for plain-text ip - Print IP information
-alias random-password='openssl rand -base64 256 | tr -d '\n' | cut -c 1-256' # Generate a random password of 256 characters
-# Quickly serve the current directory as HTTP
-alias serve='ruby -run -e httpd . -p 8001' # Or python -m SimpleHTTPServer
-# Toggle darkmode on/off (Mac)
-alias darkmode="osascript -e 'tell app \"System Events\" to tell appearance preferences to set dark mode to not dark mode'"
-# Open Slack in developer mode
-alias slack="export SLACK_DEVELOPER_MENU=true && open -a /Applications/Slack.app"
-alias timestamp="date +%s" # Print current timestamp in seconds
-alias matrix="cmatrix"     # brew install cmatrix
+alias myip="curl https://ipinfo.io/json"                                     												# or /ip for plain-text ip - Print IP information
+alias random-password="openssl rand -base64 256 | tr -d '\n' | cut -c 1-256" 												# Generate a random password of 256 characters
+alias serve='ruby -run -e httpd . -p 8001' 																					# Quickly serve the current directory as HTTP
+
+alias darkmode="osascript -e 'tell app \"System Events\" to tell appearance preferences to set dark mode to not dark mode'" # Toggle darkmode on/off (Mac)
+
+alias slack="export SLACK_DEVELOPER_MENU=true && open -a /Applications/Slack.app" 											# Open Slack in developer mode
+alias timestamp="date +%s" 																									# Print current timestamp in seconds
+alias matrix="cmatrix"     																									# brew install cmatrix
 
 # ~~~~~ Specific computer setups ~~~~~
 

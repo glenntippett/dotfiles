@@ -1,10 +1,10 @@
-#!/usr/bin/env bash
+#!/usr/bin/env zsh
 
 # gacp: Git Add, Commit, and Push
 # Usage: gacp "commit message"
 
 function git_add_commit_push() {
-    git commit -am "$1"
+    git commit -am $1
     git push
 }
 
