@@ -5,4 +5,5 @@ return {
       vim.g.everforest_background = "hard"
     end,
   },
+  { "Shatur/neovim-ayu" },
 }
