@@ -6,8 +6,7 @@
 # Include line number for specific test: ./test-rails spec/models/user_spec.rb:42
 
 function test-rails() {
-	bundle exec rspec $1 --format documentation --fail-fast
+	NO_COVERAGE=1 bundle exec rspec $1 --format documentation --fail-fast --order defined
 }
 
 test-rails $1
-
