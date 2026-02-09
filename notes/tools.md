@@ -42,7 +42,11 @@ Ping with a graph
 
 ```bash
 brew install gping
-
 ```
 
 <https://github.com/orf/gping>
+
+meetingbar
+```bash
+brew install meetingbar
+```
