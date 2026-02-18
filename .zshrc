@@ -225,6 +225,7 @@ else
 	read -r load_work_config
 
 	if [[ $load_work_config == "y" || $load_work_config == "Y" ]]; then
+    echo "Loading work config..."
 	  load_file $XDG_CONFIG_HOME/computer-setup/init
   fi
 fi
