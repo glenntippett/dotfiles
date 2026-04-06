@@ -218,7 +218,7 @@ if [[ $(hostname) == "Glenns-MacBook-Air.local" ]]; then
 # https://asdf-vm.com/guide/getting-started.html
 export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
 # work
-elif [[ $(hostname) == "AMS-MAC-037-c.local" ]]; then
+elif [[ $(hostname) == "AMS-MAC-037.local" ]]; then
 	load_file $XDG_CONFIG_HOME/computer-setup/init
 else
   echo -e "${YELLOW} Hostname not found, load work config?"
@@ -230,3 +230,4 @@ else
   fi
 fi
 
+export PATH=$PATH:/Users/glenntippett/chargefox/chargefox-tools/ecsconsole/bin
