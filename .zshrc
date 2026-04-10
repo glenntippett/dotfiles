@@ -229,5 +229,3 @@ else
 	  load_file $XDG_CONFIG_HOME/computer-setup/init
   fi
 fi
-
-export PATH=$PATH:/Users/glenntippett/chargefox/chargefox-tools/ecsconsole/bin
