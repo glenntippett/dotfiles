@@ -12,4 +12,5 @@ return {
   { "AlexvZyl/nordic.nvim" },
   { "edeneast/nightfox.nvim" },
   { "folke/tokyonight.nvim" },
+  { "sainnhe/sonokai" },
 }
