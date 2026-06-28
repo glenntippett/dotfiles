@@ -50,3 +50,18 @@ meetingbar
 ```bash
 brew install meetingbar
 ```
+
+herb-lint
+The Herb Linter provides comprehensive HTML+ERB validation with a set of configurable rules to enforce best practices and catch common errors.
+
+https://herb-tools.dev/projects/linter#command-line
+
+```bash
+npm install -g @herb-tools/linter
+```
+
+use with command:
+
+```bash
+herb-lint
+```
