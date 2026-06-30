@@ -13,4 +13,5 @@ return {
   { "edeneast/nightfox.nvim" },
   { "folke/tokyonight.nvim" },
   { "sainnhe/sonokai" },
+  { "marko-cerovac/material.nvim" },
 }
