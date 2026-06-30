@@ -65,3 +65,10 @@ use with command:
 ```bash
 herb-lint
 ```
+
+use herb lint to check modified files:
+
+```bash
+herb-lint $(git status -s | grep -E '\.(html|erb|rb)$' | awk '{print $2}')
+```
+
