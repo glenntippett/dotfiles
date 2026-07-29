@@ -3,7 +3,7 @@ export XDG_CONFIG_HOME=$HOME/.config
 export DOTFILES=$HOME/dotfiles
 export EDITOR='nvim'
 
-source $DOTFILES/scripts/helpers/*
+source $DOTFILES/bin/helpers/*
 
 GREEN='\033[0;32m'
 RED='\033[0;31m'
