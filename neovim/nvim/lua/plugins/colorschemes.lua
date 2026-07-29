@@ -14,4 +14,8 @@ return {
   { "folke/tokyonight.nvim" },
   { "sainnhe/sonokai" },
   { "marko-cerovac/material.nvim" },
+  { "ribru17/bamboo.nvim" },
+  { "kvrohit/rasmus.nvim" },
+  { "davidosomething/vim-colors-meh" },
+  { "dchinmay2/alabaster.nvim" },
 }

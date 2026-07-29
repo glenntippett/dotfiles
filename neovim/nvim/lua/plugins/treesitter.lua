@@ -3,9 +3,9 @@ return {
   opts = {
     highlight = {
       -- enable/disable for all
-      enable = false,
+      enable = true,
       -- disable for specific languages
-      -- disable = { 'markdown' }
+      -- disable = { "ruby" },
     },
   },
 }

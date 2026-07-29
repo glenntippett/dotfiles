@@ -208,6 +208,8 @@ alias serve='ruby -run -e httpd . -p 8001' 																					# Quickly serve 
 alias darkmode="osascript -e 'tell app \"System Events\" to tell appearance preferences to set dark mode to not dark mode'" # Toggle darkmode on/off (Mac)
 
 alias slack="export SLACK_DEVELOPER_MENU=true && open -a /Applications/Slack.app" 											# Open Slack in developer mode
+# SLACK_DEVELOPER_MENU=true /Applications/Slack.app/Contents/MacOS/Slack
+
 alias timestamp="date +%s" 																									# Print current timestamp in seconds
 alias matrix="cmatrix"     																									# brew install cmatrix
 
