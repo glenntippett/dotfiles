@@ -72,3 +72,5 @@ use herb lint to check modified files:
 herb-lint $(git status -s | grep -E '\.(html|erb|rb)$' | awk '{print $2}')
 ```
 
+Superfile
+https://superfile.dev/
