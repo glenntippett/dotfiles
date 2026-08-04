@@ -74,3 +74,20 @@ herb-lint $(git status -s | grep -E '\.(html|erb|rb)$' | awk '{print $2}')
 
 Superfile
 https://superfile.dev/
+
+timg (Terminal image viewer)
+```bash
+```bash
+brew install timg
+```
+```
+```
+```
+```
+
+
+
+
+
+
+
