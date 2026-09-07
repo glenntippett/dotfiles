@@ -171,6 +171,7 @@ A sub-categorized directory of formatters, linters, LSPs, language support, debu
 - `platinumaniac.platpixelicons`
 - `sabaken.good-icons`
 - `vscode-icons-team.vscode-icons`
+- `miguelsolorio.symbols`
 
 ---
 

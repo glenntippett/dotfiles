@@ -1,0 +1,95 @@
+{
+  "editor.cursorStyle": "block",
+  "editor.guides.bracketPairs": true,
+  "editor.lineHeight": 1.6,
+  "editor.fontFamily": "FiraCode Nerd Font Mono",
+
+  // Single click to keep tabs open
+  "workbench.editor.enablePreview": false,
+
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+
+  "js/ts.tsserver.log": "off",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+
+  "[ruby]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.semanticHighlighting.enabled": false,
+    "editor.formatOnType": false,
+    "editor.detectIndentation": false,
+    "editor.formatOnSave": true
+  },
+  "rubyLsp.rubyExecutablePath": "/Users/glenntippett/.asdf/shims/ruby",
+  "rubyLsp.testTimeout": 60000,
+  "rubyLsp.formatter": "rubocop_internal",
+  "rubyLsp.rubyVersionManager": {
+    "identifier": "asdf"
+  },
+  "rubyLsp.featuresConfiguration": {
+    "inlayHints": {
+      "enableAll": true
+    }
+  },
+  "rubyLsp.indexing": {
+    "excludedPatterns": ["**/spec/**/*.rb"],
+    "excludedGems": ["rubocop", "rubocop-performance"],
+    "excludedMagicComments": ["compiled:true"]
+  },
+
+  "[erb]": {
+    "editor.defaultFormatter": "marcoroth.herb-lsp",
+    "editor.formatOnSave": true
+  },
+
+  "emmet.includeLanguages": {
+    "erb": "html",
+    "ruby": "html"
+  },
+
+  "languageServerHerb.linter.enabled": true,
+  "languageServerHerb.formatter.enabled": true,
+
+  "git.blame.editorDecoration.enabled": true,
+
+  "workbench.colorTheme": "Ayu Mirage Bordered",
+  "workbench.iconTheme": "symbols",
+  "workbench.colorCustomizations": {
+    // Colours based on Ayu theme
+    "activityBarBadge.background": "#d2a6ff",
+    "activityBarBadge.foreground": "#0a0e14",
+    "activityBar.background": "#0a0e14",
+    "sideBar.background": "#0a0e14"
+  }
+}
