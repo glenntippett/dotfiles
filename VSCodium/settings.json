@@ -80,14 +80,11 @@
 
   "languageServerHerb.linter.enabled": true,
   "languageServerHerb.formatter.enabled": true,
-
-  "git.blame.editorDecoration.enabled": true,
-
   "workbench.colorTheme": "Ayu Mirage Bordered",
+  "git.blame.editorDecoration.enabled": true,
   "workbench.iconTheme": "symbols",
   "workbench.colorCustomizations": {
-    // Colours based on Ayu theme
-    "activityBarBadge.background": "#d2a6ff",
+    "activityBarBadge.background": "#cfff75",
     "activityBarBadge.foreground": "#0a0e14",
     "activityBar.background": "#0a0e14",
     "sideBar.background": "#0a0e14"

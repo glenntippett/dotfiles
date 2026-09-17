@@ -76,18 +76,16 @@ Superfile
 https://superfile.dev/
 
 timg (Terminal image viewer)
-```bash
+
 ```bash
 brew install timg
 ```
+
+Visidata
+A free, open-source tool that lets you quickly open, explore, summarize, and analyze datasets in your computer’s terminal.
+```bash
+brew install visidata
 ```
-```
-```
-```
 
-
-
-
-
-
-
+vorssaint
+https://vorssaint.com/
