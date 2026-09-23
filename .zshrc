@@ -216,19 +216,21 @@ alias matrix="cmatrix"     																									# brew install cmatrix
 
 # ~~~~~ Specific computer setups ~~~~~
 
-if [[ $(hostname) == "Glenns-MacBook-Air.local" ]]; then
-# ~~~~~ Ruby/asdf ~~~~~
-# https://asdf-vm.com/guide/getting-started.html
-export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
-# work
-elif [[ $(hostname) == "AMS-MAC-037.local" ]]; then
-	load_file $XDG_CONFIG_HOME/computer-setup/init
-else
-  echo -e "${YELLOW} Hostname not found, load work config?"
-	read -r load_work_config
-
-	if [[ $load_work_config == "y" || $load_work_config == "Y" ]]; then
-    echo "Loading work config..."
-	  load_file $XDG_CONFIG_HOME/computer-setup/init
-  fi
-fi
+case $(hostname) in
+  Glenns-MacBook-Air.local)
+    # ~~~~~ Ruby/asdf ~~~~~
+    # https://asdf-vm.com/guide/getting-started.html
+    export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
+    ;;
+  AMS-MAC-037.(lan|local))  # work
+    load_file $XDG_CONFIG_HOME/computer-setup/init
+    ;;
+  *)
+    echo -e "${YELLOW} Hostname not found, load work config?"
+    read -r load_work_config
+    if [[ $load_work_config == [yY] ]]; then
+      echo "Loading work config..."
+      load_file $XDG_CONFIG_HOME/computer-setup/init
+    fi
+    ;;
+esac
